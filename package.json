@@ -21,7 +21,7 @@
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.3"
+    "typescript": "5.1.6"
   },
   "packageManager": "pnpm@8.6.10",
   "name": "zilliz-website",
