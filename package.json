@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "preinstall": "npx -y only-allow pnpm",
+    "zilliz.com.en:dev": "pnpm -F zilliz.com.en run dev",
+    "zilliz.com.en:build": "pnpm -F zilliz.com.en run build",
+    "zilliz.com.cn:dev": "pnpm -F zilliz.com.cn run dev",
+    "zilliz.com.cn:build": "pnpm -F zilliz.com.cn run build"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.9.7",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^2.5.1",
+    "turbo": "latest",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.3"
+  },
+  "packageManager": "pnpm@8.6.10",
+  "name": "zilliz-website",
+  "dependencies": {
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ui": "workspace:*"
+  }
+}
