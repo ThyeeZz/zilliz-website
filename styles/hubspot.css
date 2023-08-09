@@ -1,0 +1,94 @@
+.hs-form input,
+.hs-form textarea,
+.hs-form select {
+  border: solid 1px #d0d6df;
+  font-size: 14px;
+  font-family: Inter;
+  color: #000000;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 8px 10px;
+  margin: 12px 0 8px;
+  background-color: #f5f8fa;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 28px;
+}
+
+.hs-form .form-columns-2 {
+  input {
+    width: 90%;
+  }
+}
+
+.hs-form .hs-form-required {
+  color: #ec4e4e;
+}
+
+.hs-form .field {
+  margin-top: 12px;
+}
+
+.hs-form input::placeholder,
+.hbspt-form .hs-form textarea::placeholder {
+  font-size: 13px;
+  color: #a9a9a9;
+}
+.hs-form .input label {
+  font-size: 16px;
+  color: #475467;
+  font-weight: normal;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: block;
+}
+
+.hs-form .actions .hs-button.primary.large {
+  background-color: #175fff;
+  border: solid 1px #175fff;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  height: 44px;
+  width: 95%;
+}
+.hs-form .actions {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+ul.hs-error-msgs {
+  padding: 0px 0px 10px 0px;
+  list-style-type: none;
+  font-size: 12px;
+  color: #ec4e4e;
+  font-weight: normal;
+  text-align: left;
+}
+.submitted-message p {
+  font-size: 16px;
+  color: #000000;
+  font-weight: normal;
+  text-align: left;
+}
+.hs-form textarea {
+  height: 60px;
+  resize: none;
+}
+.hbspt-form .hs-form .input label {
+  float: none;
+  text-align: left;
+}
+.submitted-message {
+  min-height: 50px;
+}

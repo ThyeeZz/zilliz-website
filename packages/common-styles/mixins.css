@@ -1,0 +1,541 @@
+@mixin gradientText {
+  background: linear-gradient(
+    127.04deg,
+    #7cc7fe 5.27%,
+    #175fff 39.75%,
+    #f2a5f2 94.73%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin gradient2Text {
+  background: linear-gradient(127.04deg, #f1707b 8.87%, #5f63ff 94.73%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin zilliz-h1 {
+  font-size: 70px;
+  line-height: 74px;
+}
+
+@mixin zilliz-h1-bold {
+  @include zilliz-h1;
+  font-weight: 600;
+}
+
+@mixin zilliz-h2 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+@mixin zilliz-h2-bold {
+  @include zilliz-h2;
+  font-weight: 600;
+}
+
+@mixin zilliz-h3 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+}
+
+@mixin zilliz-h3-bold {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 600;
+}
+
+@mixin zilliz-h4 {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+@mixin zilliz-h4-bold {
+  @include zilliz-h4;
+  font-weight: 600;
+}
+
+@mixin zilliz-h5 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 50px;
+}
+
+@mixin zilliz-h5-bold {
+  @include zilliz-h5;
+  font-weight: 600;
+}
+
+@mixin zilliz-h6 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+@mixin zilliz-h6-bold {
+  @include zilliz-h6;
+  font-weight: 600;
+}
+
+@mixin zilliz-h6-regular {
+  @include zilliz-h6;
+  font-weight: 400;
+}
+
+@mixin zilliz-h7 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+@mixin zilliz-h7-bold {
+  @include zilliz-h7;
+  font-weight: 600;
+}
+
+@mixin zilliz-h7-regular {
+  @include zilliz-h7;
+  font-weight: 400;
+}
+
+@mixin zilliz-h8-bold {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@mixin zilliz-h9 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@mixin zilliz-h9-bold {
+  @include zilliz-h9;
+  font-weight: 600;
+}
+
+@mixin zilliz-h10 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+@mixin zilliz-h10-bold {
+  @include zilliz-h10;
+  font-weight: 600;
+}
+
+@mixin zilliz-h11 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@mixin zilliz-h11-bold {
+  @include zilliz-h11;
+  font-weight: 600;
+}
+
+@mixin zilliz-body1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+@mixin zilliz-body1-bold {
+  @include zilliz-body1;
+  font-weight: 600;
+}
+
+@mixin zilliz-body1-regular {
+  @include zilliz-body1;
+  font-weight: 400;
+}
+
+@mixin zilliz-body2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@mixin zilliz-body2-bold {
+  @include zilliz-body2;
+  font-weight: 600;
+}
+
+@mixin zilliz-body2-regular {
+  @include zilliz-body2;
+  font-weight: 400;
+}
+
+@mixin zilliz-body3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+@mixin zilliz-body3-bold {
+  @include zilliz-body3;
+  font-weight: 600;
+}
+
+@mixin zilliz-body3-regular {
+  @include zilliz-body3;
+  font-weight: 400;
+}
+
+@mixin zilliz-body4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin zilliz-body4-bold {
+  @include zilliz-body4;
+  font-weight: 600;
+}
+
+@mixin zilliz-body4-regular {
+  @include zilliz-body4;
+  font-weight: 400;
+}
+
+@mixin zilliz-body5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin zilliz-body5-bold {
+  @include zilliz-body5;
+  font-weight: 600;
+}
+
+@mixin zilliz-body5-regular {
+  @include zilliz-body5;
+  font-weight: 400;
+}
+
+@mixin zilliz-body6-regular {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@mixin zilliz-body6-bold {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@mixin zilliz-caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin zilliz-small-button {
+  padding: 10px 18px;
+}
+
+@mixin zilliz-small-gradient-button {
+  padding: 10px 25px;
+}
+
+@mixin zilliz-button-start-icon {
+  display: flex;
+  align-items: center;
+
+  margin-right: 8px;
+  margin-left: -8px;
+}
+
+@mixin zilliz-button-end-icon {
+  display: flex;
+  align-items: center;
+
+  margin-right: -8px;
+  margin-left: 8px;
+}
+
+@mixin zilliz-code-regular {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+@mixin arrow-animation {
+  position: relative;
+  top: 3px;
+  right: -12px;
+  visibility: hidden;
+  transition: all 0.1s linear;
+  &:hover {
+    visibility: visible;
+  }
+  &.show {
+    visibility: visible;
+    @include zilliz-body5-bold;
+  }
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@mixin loading-circle {
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  transform-origin: 50% 50%;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@mixin new-h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+@mixin new-h1-bold {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+}
+
+@mixin new-h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+@mixin new-h2-bold {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+@mixin new-h3 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+@mixin new-h3-bold {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+@mixin new-h4 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+@mixin new-h4-bold {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+@mixin new-h5 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+@mixin new-h5-regular {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+}
+
+@mixin new-h5-bold {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+@mixin new-h6 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+@mixin new-h6-bold {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+@mixin new-h6-regular {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+@mixin new-body1 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@mixin new-body1-bold {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+@mixin new-body1-regular {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+@mixin new-body2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@mixin new-body2-regular {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@mixin new-body2-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+@mixin new-body3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@mixin new-body3-bold {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+@mixin new-body3-regular {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@mixin new-body4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+@mixin new-body4-bold {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+@mixin new-body4-regular {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+@mixin new-body5-bold {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+@mixin new-body5 {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+@mixin new-body5-regular {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+@mixin new-body5-regular {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+@mixin new-body6 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+@mixin new-body6-bold {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+@mixin new-body6-regular {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+@mixin deep-blue-tag {
+  @include zilliz-body5-bold;
+  color: $hover-btn-blue;
+  margin-bottom: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@mixin gap-transition {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  transition: gap linear 0.2s;
+
+  &:hover {
+    gap: 12px;
+    color: #000;
+  }
+}

@@ -1,0 +1,30 @@
+@import url('./globals.css');
+
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+
+  @media (max-width: $container-max-width) {
+    padding: 0 40px 0;
+  }
+
+  @media (--media1236) {
+    max-width: none;
+    padding: 0 40px;
+  }
+  @media (--media700) {
+    padding: 0 25px;
+  }
+}
+
+.summitContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  @media (--media1236) {
+    max-width: none;
+    padding: 0 40px 0;
+  }
+  @media (--media700) {
+    padding: 0 25px;
+  }
+}

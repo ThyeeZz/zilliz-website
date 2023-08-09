@@ -1,0 +1,86 @@
+p {
+  font-weight: 400;
+}
+
+.outlinedButton {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  text-transform: inherit;
+  text-decoration: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all 0.3s;
+
+  background-color: transparent;
+  border: 1px solid $default-btn-blue;
+  color: $default-btn-blue;
+  cursor: pointer;
+
+  svg {
+    path {
+      fill: $default-btn-blue;
+    }
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: $hover-btn-blue;
+    border-color: $hover-btn-blue;
+    text-decoration: none;
+    &::after {
+      content: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.15234 1.9999L9.15234 6.9999L4.15234 11.9999L5.00087 12.8484L10.8494 6.9999L5.00087 1.15137L4.15234 1.9999Z' fill='%2312389A'/%3E%3C/svg%3E%0A");
+    }
+  }
+
+  margin-bottom: 16px;
+
+  &::after {
+    margin-left: 8px;
+    content: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 1.84853L9 6.84853L4 11.8485L4.84853 12.6971L10.6971 6.84853L4.84853 1L4 1.84853Z' fill='%233670F2'/%3E%3C/svg%3E%0A");
+  }
+}
+
+.arrowLink {
+  @include zilliz-body4;
+  color: $default-btn-blue;
+  &:hover {
+    text-decoration: underline;
+  }
+  &::after {
+    display: inline-block;
+    margin-left: 8px;
+    content: '→';
+  }
+}
+
+strong {
+  font-weight: 600;
+  a {
+    font-weight: 600;
+  }
+}
+
+.blackLink {
+  text-decoration: underline;
+  &:hover {
+    color: #000;
+  }
+}
+
+p {
+  a {
+    font-weight: 400;
+    color: $default-btn-blue;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+}

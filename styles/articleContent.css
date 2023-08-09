@@ -1,0 +1,198 @@
+.articleContent {
+  width: 100%;
+
+  h2 {
+    @include zilliz-h9;
+    margin: 80px 0 32px 0;
+
+    @media (--media1022) {
+      @include zilliz-h10;
+    }
+  }
+
+  h3 {
+    @include zilliz-body1;
+
+    @media (--media1022) {
+      @include zilliz-body2;
+    }
+  }
+
+  h4,
+  h5 {
+    @include zilliz-body1-regular;
+    margin: 32px 0 16px 0;
+  }
+
+  h6 {
+    @include zilliz-body5-regular;
+    margin: 8px 0 16px 0;
+    text-align: center;
+    color: $black-black1;
+
+    @media (--media1022) {
+      @include zilliz-body6-regular;
+    }
+  }
+
+  p {
+    @include zilliz-body3-regular;
+    margin: 16px 0;
+
+    @media (--media1022) {
+      @include zilliz-body4-regular;
+    }
+  }
+
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: $digital-blue;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @media (--media1022) {
+      @include zilliz-body4-regular;
+    }
+  }
+
+  code {
+    @include zilliz-body3-regular;
+    display: inline-block;
+    padding: 4px 8px;
+    background: $bg-grey;
+    border-radius: 4px;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+
+    @media (--media1022) {
+      @include zilliz-body4-regular;
+    }
+  }
+
+  pre {
+    padding: 24px 61px 24px 24px;
+    background: $bg-grey;
+    margin: 32px 0;
+    border-radius: 8px;
+    display: block;
+    position: relative;
+    overflow: scroll;
+
+    @media (--media1022) {
+      padding: 20px;
+    }
+  }
+  pre > code {
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+
+    @media (--media1022) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    & > span {
+      font-family: 'Source Code Pro';
+    }
+  }
+
+  pre > button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  ul,
+  ol {
+    @include zilliz-body4-regular;
+    margin: 16px 0 32px;
+    list-style: disc;
+    padding-left: 24px;
+
+    @media (--media1022) {
+      @include zilliz-body5-regular;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin: 32px 0;
+
+    thead {
+      @include zilliz-body3;
+      th {
+        padding: 11px 8px;
+        border-bottom: 1px solid #e2e2e2;
+        text-align: left;
+      }
+    }
+    tbody {
+      td {
+        padding: 16px 8px;
+      }
+      @include zilliz-body4-regular;
+      tr:nth-child(even) {
+        background: $bg-grey;
+      }
+    }
+  }
+
+  img {
+    border-radius: 8px;
+    width: 100%;
+    margin: 32px auto 8px;
+    display: block;
+  }
+
+  .copy-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

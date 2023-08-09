@@ -1,0 +1,38 @@
+@import url('./globals.css');
+
+.contentContainer {
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  justify-content: space-between;
+  gap: 40px;
+
+  @media (--media1236) {
+    margin-top: 12px;
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: flex-start;
+  }
+
+  .docContent {
+    width: 750px;
+
+    @media (--media1236) {
+      flex: 1;
+      width: auto;
+    }
+  }
+
+  .leftSection {
+    flex: 0 0 260px;
+    position: sticky;
+    top: 166px;
+    left: 0;
+
+    @media (--media1236) {
+      flex: 0 0 auto;
+      position: static;
+      margin-top: 0px;
+    }
+  }
+}
