@@ -1,9 +1,13 @@
+'use client';
+
 import React from 'react';
 import { Button } from 'ui';
 import classes from 'common-styles';
+import { useTranslation } from 'react-i18next';
 
 export default function Blog() {
   const { blogClasses } = classes;
+  const { t } = useTranslation('common');
   return (
     <div className={classes.blogClasses.blogPageContainer}>
       <div className={classes.blogClasses.titleWrapper}>
@@ -15,6 +19,7 @@ export default function Blog() {
           链接：https://juejin.cn/post/7160229239840014343 来源：稀土掘金
           著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
         </p>
+        <button>{t('button.freeTrial')}</button>
       </div>
     </div>
   );

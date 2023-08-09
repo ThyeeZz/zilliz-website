@@ -1,0 +1,22 @@
+{
+  "helloWorld": "你好，世界！",
+  "required": "此字段为必填项。",
+  "button": {
+    "freeTrial": "免费试用",
+    "tryFree": "免费试用",
+    "subscribe": "订阅",
+    "success": "订阅成功！",
+    "wait": "请稍候",
+    "doc": "文档",
+    "readStory": "阅读故事",
+    "loadMore": "加载更多",
+    "learnMoreAbout": "了解更多关于",
+    "contactUs": "联系我们",
+    "contactSale": "联系销售",
+    "apply": "申请试用",
+    "viewPrice": "查看定价详情"
+  },
+  "warning": {
+    "required": "此字段为必填项。"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "header": {
+    "title": "Comparing Zilliz and Milvus",
+    "desc": "Unleash a cloud-native experience with a complete feature set only available with Zilliz.",
+    "btnLabel": "Get Started for Free"
+  },
+  "desc": "Zilliz provides a cloud-native experience with a complete feature set that includes the above capabilities and more. With Zilliz, you can easily manage and scale your Milvus clusters, store and search vectors for similarity, and cost-effectively retain data at any scale without growing compute.",
+  "titles": {
+    "easeOfUse": "Built on Milvus and optimized for ease of use",
+    "cloudNative": "Cloud-native, scalability",
+    "security": "Expert Support and Security"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Use Cases",
+  "desc": "Developers and organizations leverage Milvus & Zilliz Cloud to build modern applications for various purposes. Supercharge your projects with a lightning-fast, cloud-native, and AI-powered vector database now!",
+  "btnLabel": "Get Started Free",
+  "tip": "Build your applications with Zilliz Cloud now.",
+  "listSection": {
+    "title": "Popular Use Cases <0></0>Zilliz Cloud Can Make a Difference ",
+    "features": "Zilliz Cloud has also proven beneficial in various scenarios, such as <0>DNA sequence classification, data deduplication, fraud detection, drug discovery, and copyright protection</0>. "
+  },
+  "shareStory": {
+    "title": "Share Your Story with Us!",
+    "desc": "Have you built something cool using Milvus or Zilliz Cloud? We want to hear all about it. You’ll get a free Zilliz hoody for sharing your project made with Milvus or Zilliz.",
+    "btnLabel": "Submit My Story"
+  },
+  "llmAugment": {
+    "header": {
+      "briefLinkName": "LLM Augmentation",
+      "title": "Large Language Model Augmentation",
+      "desc": "Unleashing the full potential of generative AI with Milvus & Zilliz Cloud by bringing external data sources to large language models (LLMs) and your AI applications. ",
+      "btnLabel": "Get Started Free",
+      "tip": "Free access. No credit card required."
+    },
+    "limitation": {
+      "title": "LLM Limitations",
+      "limitations": [
+        {
+          "title": "Lacking domain-specific information",
+          "desc": "LLMs are trained solely on data that is publicly available. Thus, they may lack knowledge of domain-specific, proprietary, or private information that is not accessible to the public."
+        },
+        {
+          "title": "Prone to hallucination ",
+          "desc": "LLMs can only give answers based on the information they have. They may provide incorrect or fabricated information if they don't have enough data to reference."
+        },
+        {
+          "title": "Costly and slow",
+          "desc": "LLMs charge for every token in queries, resulting in high costs, particularly for repetitive questions. In addition, response delays during peak times also frustrate users seeking quick answers."
+        },
+        {
+          "title": "Failure to access up-to-date information",
+          "desc": "LLMs are often trained on outdated data and don't update their knowledge base regularly due to high training costs. For instance, training GPT-3 can cost up to 1.4 million dollars. "
+        },
+        {
+          "title": "Token Limit",
+          "desc": "LLMs set a limit on the number of tokens that can be added to query prompts. For example, ChatGPT-3 has a limit of 4,096 tokens, while GPT-4 (8K) has a token limit of 8,192."
+        },
+        {
+          "title": "Immutable pre-training data",
+          "desc": "LLMs' pre-training data may contain outdated or incorrect information. Unfortunately, such data cannot be modified, corrected, or removed."
+        }
+      ]
+    },
+    "application": {
+      "title": "How Zilliz Cloud Augments LLM Applications",
+      "updating": {
+        "title": "Updating and expanding LLMs’ knowledge base for more accurate answers",
+        "desc": "Zilliz Cloud allows developers and enterprises to securely store domain-specific, up-to-date, and confidential private data outside LLMs. When a user asks a question, LLM applications use embedding models to transform the question into vectors. Zilliz Cloud then conducts similarity searches to provide the topk results relevant to that question. Finally, these results are combined with the original question to create a prompt that provides a comprehensive context for the LLM to generate more accurate answers."
+      },
+      "saving": {
+        "title": "Saving time and costs when combining Zilliz Cloud with GPTCache",
+        "desc": "Frequently asking LLMs repetitive or similar questions can be costly, resource-wasting, and time-consuming, especially during peak times when responses are slow. To save time and money when building AI applications, developers can utilize Zilliz Cloud with <0>GPTCache</0>, an open-source semantic cache that stores LLM responses.With this architecture, Zilliz first checks GPTCache for answers when a user asks a question. If it finds an answer, Zilliz Cloud quickly returns the answer to the user. Otherwise, Zilliz Cloud sends the query to the LLM for an answer and stores it in GPTCache for future use. "
+      }
+    },
+    "cvpStack": {
+      "title": "The CVP Stack",
+      "subTitle": "ChatGPT/LLMs + a vector database + prompt-as-code",
+      "content1": "<0>The CVP stack (ChatGPT/LLMs + a vector database + prompt-as-code)</0> is an increasingly popular AI stack that shows how a vector database enhances LLM applications. We can use <1>OSS Chat</1> as an example to demonstrate how the CVP stack works.",
+      "content2": "OSS Chat is a chatbot that can answer questions about GitHub projects. It collects and stores information from various GitHub repositories and their documentation pages in Zilliz Cloud in the form of embeddings. When a user asks OSS Chat about any open-source project, Zilliz Cloud conducts a similarity search to find the topk most relevant outcomes. Then these results are combined with the original question to create a prompt that gives ChatGPT a broader context, resulting in more accurate answers.",
+      "content3": "We can also incorporate the GPTCache into the CVP stack to reduce costs and speed up responses."
+    },
+    "utilizing": {
+      "title": "LLM Projects Utilizing Milvus & Zilliz Cloud",
+      "desc": "Learn how developers utilize Milvus & Zilliz Cloud to empower their generative AI applications.",
+      "button": "Learn how to build an LLM project"
+    },
+    "integration": {
+      "title": "Milvus Integrations with Popular AI Projects",
+      "desc": "OpenAI, LangChain, LlamaIndex, and many other AI pioneers are integrating with Zilliz Cloud to amplify their retrieval capabilities."
+    },
+    "resources": {
+      "title": "Related Resources",
+      "blog": "Blog",
+      "btnLabel": "Read More"
+    }
+  }
+}

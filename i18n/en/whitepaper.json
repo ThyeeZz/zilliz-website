@@ -1,0 +1,33 @@
+{
+  "pageName": "Whitepaper",
+  "performance": {
+    "title": "Milvus Performance Evaluation2023",
+    "desc": "<0>In this technical paper, we'll compare the performance and features of Milvus for vector collections workloads, specifically looking at the query performance (latency and throughput) and scalability (billion scale collection and multiple replicas).</0><1>This data should prove valuable to developers and architects evaluating the suitability of these technologies for their use case. Specifically, similarity search use cases involve building semantic text search, targeted advertising, e-commerce product recommendation engines, user-generated content (UGC) recommenders, risk-control and anti-fraud systems, and new drug discovery.</1><2>Our goal with this benchmark test was to create a consistent, up-to-date comparison that reflects the latest developments in Milvus. Periodically, we’ll re-run these benchmarks and update this document with our findings. All of the code for these benchmarks is available on </2><3>GitHub</3><4>. Feel free to open up issues or pull requests on that repository if you have any questions, comments, or suggestions.</4>"
+  },
+  "manu": {
+    "title": "Manu: A Cloud Native Vector Data Management System",
+    "desc": "<0>With the development of learning-based embedding models, developers use embedding vectors for analyzing and searching unstructured data. However, as vector collections exceed billion-scale, fully managed and horizontally scalable vector databases are necessary.</0> <0>In this technical paper, you will learn our design philosophy when we developed Manu. This cloud-native vector database supports the scalability requirements of managing tens of billions of vectors, and we did this through interactions with our 1700+ industry users. In addition, we have sketched a vision for the features that next-generation vector databases should have — specifically, long-term evolvability, tunable consistency, good elasticity, and high elasticity performance.</0>"
+  },
+  "milvus": {
+    "title": "Milvus: A Purpose-Built Vector Data Management System",
+    "desc": "<0>Recently, there has been a trend toward managing high-dimensional vector data in data science and AI applications. To use the proliferation of unstructured data, developers use machine learning (ML) to transform unstructured data into feature vectors for data analytics. Unfortunately, existing systems and algorithms for managing vector data have limited functions and usually incur serious performance issues when handling large-scale and dynamic vector data.</0><0>In this paper, you will learn how Milvus, a purpose-built data management system, can efficiently manage large-scale vector data. It supports easy-to-use SDKs and RESTful APIs; optimizes for the heterogeneous computing platform with modern CPUs and GPUs; enables advanced query processing beyond simple vector similarity search; handles dynamic data for fast updates while ensuring efficient query processing; and distributes data across multiple nodes to achieve scalability and availability.</0>"
+  },
+  "button": "Download Now",
+  "share": "Share",
+  "heroSection": {
+    "title": "Milvus: A Purpose-Built Vector Data Management System",
+    "download": "Download now"
+  },
+
+  "dialog": {
+    "title": "Get your copy",
+    "desc": "Enter your information below to download the content",
+    "download": "Download",
+    "tip": "By signing up you agree to the Terms of Service."
+  },
+  "getWhitepaper": "Get the Whitepaper",
+  "thankyouReceipt": {
+    "title": "Thank you for your interest!",
+    "desc": "A copy of the paper has been sent to your email <0>{{email}}</0>"
+  }
+}

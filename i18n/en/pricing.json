@@ -1,0 +1,210 @@
+{
+  "header": {
+    "tagLine": "Pricing",
+    "title": "Zilliz Cloud Pricing",
+    "description": "Scalable pricing designed for every team to fit any budget. <0>Estimate Cost</0>",
+    "subscribe": "Subscribe on <0>AWS Marketplace</0>"
+  },
+  "buttons": {
+    "start": "Sign up now",
+    "estimate": "Estimate Cost",
+    "advanced": "Advanced CU Calculator"
+  },
+  "estimator": {
+    "title": "Estimate Your Cost",
+    "desc": "Use this calculator to understand how Zilliz Cloud charges.",
+    "tooltip": "A compute unit (CU) is the physical resource unit for database deployment. Different CU types comprise varying combinations of CPU, memory, and storage. Performance-optimized CU is suitable for low latency or high throughput similarity search. Capacity-optimized CU can serve data volume 5x larger than performance-optimized CU but at the cost of higher search latency.",
+    "tip": "To use the advanced CU calculator, please view the website on a desktop or tablet."
+  },
+  "calculator": {
+    "title": "CU Calculator",
+    "desc": "Use our comprehensive CU calculator to estimate your CU usage and cost after the free trial ends.",
+    "tip": "The value of the vector dimension should be greater than 32.",
+    "button": {
+      "add": "Add New Field",
+      "contact": "Contact Us"
+    },
+    "resultTip": "<0>Our pricing calculator is built around vectors. The calculation result may differ if your dataset includes non-vector fields (such as int, string, json, etc.)</0>. If your application is capacity-sensitive, we suggest you conduct a proof of concept (PoC) test during the free trial period.",
+    "largeSize": "It looks like you are working on a large amount of data. <0></0>Please contact us directly for a cost estimate. ",
+    "label": {
+      "cuType": "CU Type",
+      "plan": "Pricing Plan",
+      "provider": "Cloud Provider",
+      "region": "Cloud Region",
+      "entityNum": "Number of Entities",
+      "vectorDimension": "Vector Dimension",
+      "cuSize": "CU Size",
+      "storageSize": "Storage Size",
+      "cuCost": "CU Cost",
+      "storageCost": "Storage Cost",
+      "totalCost": "Total Cost",
+      "duration": "Duration",
+      "schema": {
+        "title": "Schema",
+        "filedName": "Field Name <0>(Optional)</0>",
+        "fieldType": "Field Type",
+        "index": "Index",
+        "dimension": "Dimension",
+        "averageLength": "Average Length"
+      }
+    },
+    "whatIsCUtip": {
+      "title": "What is CU type?",
+      "desc": {
+        "typeOne": "<0>Performance-optimized CU</0> suits low latency or high throughput similarity searches. This option works best for high-search performance scenarios.",
+        "typeTwo": "<0>Capacity-optimized CU</0> suits data volumes that are 5 times larger than the performance-optimized CU but at the cost of higher search latency. This option works best for increased storage capacity scenarios.",
+        "typeThree": "<0>Cost-optimized CU</0> provides the same large capacity as the Capacity-optimized option, but at a lower cost with reduced search performance. This option is ideal for budget-conscious projects that need ample storage without high-performance demands."
+      }
+    },
+    "tooltip": {
+      "cuType": "A compute unit (CU) is the physical resource unit for database deployment. Different CU types comprise varying combinations of CPU, memory, and storage. Performance-optimized CU is suitable for low latency or high throughput similarity search. Capacity-optimized CU can serve data volume 5x larger than performance-optimized CU but at the cost of higher search latency.",
+      "fieldType": "The data type of the items in each field.",
+      "index": "Choose whether to create an index on this field or not.",
+      "dimension": "The dimension of your vector data. The upper limit is 32,768.",
+      "averageLength": "The average length of the string data. The upper limit is 65,535."
+    },
+    "prompt": {
+      "dimension": "The value cannot exceed 32,768.",
+      "averageLength": "The value cannot exceed 65,535."
+    }
+  },
+  "newPricing": {
+    "free": "SERVERLESS",
+    "dedicated": "DEDICATED CLUSTER",
+    "pricing": "From <0>${{price}}/month</0>",
+    "hardWare": "Hardware",
+    "features": "Features",
+    "support": "Support",
+    "security": "Security and Compliance",
+    "serverless": {
+      "planName": "Starter",
+      "slogan": "",
+      "desc": "The simplest way to experience a fully-managed vector database.",
+      "hardWare": [
+        "No CU options",
+        "Shared environment",
+        "Up to 2 free collections"
+      ],
+      "features": [
+        "No credit card required to start",
+        "Available on GCP",
+        "Single availability zone",
+        "Single project"
+      ],
+      "support": ["Community support"],
+      "security": []
+    },
+    "standard": {
+      "planName": "Standard",
+      "slogan": "",
+      "desc": "For teams with less than 5 engineers and complex workloads.",
+      "hardWare": {
+        "hardWareOne": "Cost-optimized CU, Capacity-optimized CU, and Performance-optimized CU options. <0>See comparison</0>"
+      },
+      "features": [
+        "No credit card required to start",
+        "Available on AWS and GCP",
+        "Persistent data storage, configurable snapshots, and flexible retention policies ($0.025/GB/month)",
+        "Single availability zone",
+        "Multiple projects",
+        "RBAC and organization management",
+        "Multiple payment options",
+        "Prometheus metrics"
+      ],
+      "support": {
+        "supportOne": "Email support during business hours with <0>response time SLAs</0> (Urgent: 4 hours; High: 1 business day; Normal: 2 business days)",
+        "supportTwo": "Up to 2 technical contacts"
+      },
+      "security": [
+        "Enterprise-grade encryption in transit and at rest",
+        "SOC 2 Type 2 compliant"
+      ]
+    },
+    "enterprise": {
+      "planName": "Enterprise",
+      "slogan": "Everything in Standard plus",
+      "desc": "For at-scale organizations with advanced security and support needs.",
+      "hardWare": {
+        "hardWareOne": "Cost-optimized CU, Capacity-optimized CU, and Performance-optimized CU options. <0>See comparison</0>"
+      },
+      "features": [
+        "Multiple availability zones",
+        "Private link",
+        "99.9% monthly uptime availability",
+        "Data backups every 24 hours, retained for 7 days"
+      ],
+      "support": {
+        "supportOne": "24/7/365 Email and Slack support with <0>response time SLAs</0> (Urgent: 1 hour; High: 4 hours; Normal: 1 business day)",
+        "supportTwo": "Up to 4 technical contacts"
+      },
+      "security": [
+        "Resource monitors and alert notifications",
+        "Enterprise-grade encryption in transit and at rest",
+        "SOC 2 Type 2 compliant"
+      ]
+    },
+    "selfHost": {
+      "planName": "Self-Hosted",
+      "slogan": "",
+      "price": "Perfect for businesses prioritizing privacy and regulatory adherence.",
+      "desc": "This plan includes all the features in the Enterprise Plan, providing self-managed vector database services deployed within your Virtual Private Cloud (VPC).",
+      "features": [
+        "Deploy on your infrastructure of choice, across multiple cloud platforms",
+        "Highly compatible with Kubernetes",
+        "Enterprise security features",
+        "On-demand training"
+      ]
+    },
+    "priceTable": {
+      "standardTitle": "Zilliz Cloud Standard Plan",
+      "enterpriseTitle": "Zilliz Cloud Enterprise Plan",
+      "pricePerHour": "${{price}}/hour",
+      "pricePerGBPerMonth": "${{price}} / GB per month",
+      "cuTypes": [
+        "Cost-optimized",
+        "Capacity-optimized",
+        "Performance-optimized"
+      ],
+      "tableHeaders": {
+        "type": "CU Type",
+        "awsUSPrice": "AWS CU Price (US)",
+        "gcpUSPrice": "GCP CU Price (US)",
+        "awsSINPrice": "AWS CU Price (Singapore)",
+        "gcpSINPrice": "GCP CU Price (Singapore)",
+        "capacity": "Approximate Capacity per CU",
+        "awsPrice": "AWS Storage Price",
+        "gcpPrice": "GCP Storage Price"
+      },
+      "standardPrice": {
+        "capacity": [
+          "25 million 128-dimensional vectors or 5 million 768-dimensional vectors",
+          "25 million 128-dimensional vectors or 5 million 768-dimensional vectors",
+          "5 million 128-dimensional vectors or 1 million 768-dimensional vectors"
+        ]
+      }
+    },
+    "slaTable": {
+      "standardTitle": "Standard Plan Response Time SLAs",
+      "enterpriseTitle": "Enterprise Plan Response Time SLAs",
+      "nHour_one": "{{count}} hour",
+      "nHour_other": "{{count}} hours",
+      "nDay_one": "{{count}} business day",
+      "nDay_other": "{{count}} business days",
+      "tableHeaders": {
+        "urgent": "Urgent",
+        "high": "High",
+        "normal": "Normal"
+      },
+      "standard": {
+        "urgent": "These are critical problems that require immediate attention, as they significantly impact the functionality or availability of the service. Examples include: <0>Cluster unavailability</0> <0>Frequent/recurring errors that impact functionality.</0>",
+        "high": "High-priority issues are those that cause service quality degradation. Examples include: <0>Performance degradation of Zilliz Cloud services.</0> <0>Non-critical errors that do not significantly impact functionality.</0>",
+        "normal": "Normal-priority issues usually involve non-urgent matters related to the functionality or user experience of the service. Examples include:<0>General user support requests, such as assistance with configuration.</0> <0>Feature requests or enhancements to improve the service.</0> <0>Minor bugs or inconsistencies that don't impact overall performance or functionality.</0>"
+      },
+      "enterprise": {
+        "urgent": "These are critical problems that require immediate attention, as they significantly impact the functionality or availability of the service. Examples include: <0>Cluster unavailability</0> <0>Frequent/recurring errors that impact functionality.</0>",
+        "high": "High-priority issues are those that cause service quality degradation. Examples include: <0>Performance degradation of Zilliz Cloud services. </0> <0>Non-critical errors that do not significantly impact functionality.</0>",
+        "normal": "Normal-priority issues usually involve non-urgent matters related to the functionality or user experience of the service. Examples include:<0>General user support requests, such as assistance with configuration.</0> <0>Feature requests or enhancements to improve the service.</0> <0>Minor bugs or inconsistencies that don't impact overall performance or functionality.</0>"
+      }
+    }
+  }
+}

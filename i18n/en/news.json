@@ -1,0 +1,26 @@
+{
+  "title": "Zilliz Newsroom",
+  "subTitle": "The Zilliz newsroom houses company announcements, media coverage, and media resources.",
+  "noData": "No more news",
+  "buttons": {
+    "readMore": "Read more",
+    "learnMore": "More news",
+    "assets": "Coming soon",
+    "touch": "Get in touch",
+    "comming": "Comming soon"
+  },
+  "feature": {
+    "title": "In the news"
+  },
+  "press": {
+    "title": "Company News"
+  },
+  "contact": {
+    "title": "Contact us",
+    "desc": "For media and analyst inquiries."
+  },
+  "media": {
+    "title": "Media assets",
+    "desc": "Official Zilliz family logos and assets for download."
+  }
+}

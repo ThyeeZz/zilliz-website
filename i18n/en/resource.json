@@ -1,0 +1,23 @@
+{
+  "tab": {
+    "title": "Resource Type",
+    "whitepapers": "Whitepapers",
+    "customerStories": "Customer stories",
+    "webinars": "Webinars",
+    "trainings": "Trainings",
+    "noData": "No data"
+  },
+  "header": {
+    "title": "Resources",
+    "desc": "Learn more about vector search and AI technologies."
+  },
+  "whitepaper": {
+    "noData": "No whitepapers currently"
+  },
+  "webinars": {
+    "noData": "No webinars currently"
+  },
+  "trainings": {
+    "noData": "No trainings currently"
+  }
+}

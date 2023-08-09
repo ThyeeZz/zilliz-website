@@ -1,0 +1,35 @@
+{
+  "aboutHeader": {
+    "title": "面向企业级 AI 应用的向量数据库系统",
+    "subTitle": "助力打造高质量 AI 服务与应用"
+  },
+  "keyNumbers": {
+    "year": {
+      "title": "2017年",
+      "desc": "成立"
+    },
+    "invest": {
+      "title": "1.13亿美元",
+      "desc": "融资"
+    },
+    "team": {
+      "title": "100+",
+      "desc": "团队成员"
+    }
+  },
+  "companyInfo": {
+    "tagLine": "关于我们",
+    "title": "向量数据库系统的开拓者和全球领先者",
+    "desc1": "作为全球最受欢迎的开源向量数据库 Milvus 的创造者，Zilliz 提供面向 AI 应用的新一代数据库技术，帮助企业便捷开发 AI 应用。",
+    "desc2": "以 AI 民主化为使命，Zilliz 致力于简化 AI 数据管理基础设施，通过向量数据库赋能更多企业。"
+  },
+  "investorInfo": {
+    "title": "我们的投资人",
+    "subTitle": "我们得到以下一线投资人的支持"
+  },
+  "partnersInfo": {
+    "title": "我们的合作伙伴",
+    "subTitle": "我们受到众多顶级产品和公司的信赖，致力于通过向量数据库赋能更多企业、组织和个人。",
+    "view": "查看合作伙伴"
+  }
+}

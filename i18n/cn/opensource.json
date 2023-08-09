@@ -1,0 +1,27 @@
+{
+  "title": "开源向量数据库和 AI 基础设施",
+  "desc": "Zilliz 开发了众多受欢迎的 AI 开源项目。不论是搭建全新的 AI 基础设施，还是优化现有系统，您都可以使用我们开发的向量数据库及相关工具简化 AI 应用管理，提升 AI 系统性能。",
+  "subTitle": "由 Zilliz 维护的开源 AI 基础设施项目",
+  "joinWeChat": "加入微信群",
+  "projects": {
+    "title": "由 Zilliz 维护的开源 AI 基础设施项目",
+    "milvus": {
+      "desc": "Milvus 是一款开源向量数据库，可用于存储、索引和管理由深度神经网络和其他机器学习（ML）模型生成的大规模向量。"
+    },
+    "towhee": {
+      "desc": "Towhee 能够简化 AI 应用中数据处理流水线的搭建过程。Towhee 提供数百种现成模型和算法，您可轻松使用 Towhee 将非结构化数据转化为向量。"
+    },
+    "attu": {
+      "desc": "Attu 是一个多合一向量数据库管理工具。Attu 友好直观的 Web 界面，助您全方位管理 Zilliz Cloud 数据库，大幅降低管理向量数据库的开发和运维成本。  "
+    },
+    "cli": {
+      "desc": "Milvus CLI 命令行工具具备数据库连接、数据操作、导入导出数据等功能。使用 Milvus CLI 您可轻松在终端中执行 Milvus Python SDK 命令。"
+    },
+    "feder": {
+      "desc": "Feder 是一个JavaScript 语言开发的工具，专为可视化向量数据设计。使用 Feder，您可轻松可视化 Faiss、HNSWlib 等近似最近邻（ANN）算法库的索引文件，更深入了解每个算法库的工作原理。"
+    },
+    "GPTCache": {
+      "desc": "GPTCache 是一款开源工具，专为提升 GPT 应用效率打造。GPTCache 通过增加一个缓存层，存储大语言模型生成的响应，从而大幅提升系统整体效率"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "header": {
+    "title": "Join Our Team",
+    "desc": "We're a passionate bunch working from all over the world to build the technologies for AI applications",
+    "btnLabel": "View open positions"
+  },
+  "companyIntro": {
+    "title": "Who We Are",
+    "desc": "With the vision of bringing the power of AI to every corporation, every organization, and every individual, Zilliz was founded in 2017 by a team of data practitioners committed to building cutting-edge data infrastructure to help enterprises navigate today’s big data challenges."
+  },
+  "employee": {
+    "title": "Hear From The Team",
+    "titleBr1": "Hear From",
+    "titleBr2": "the Team",
+    "commentFilip": {
+      "name": "Filip",
+      "position": "Engineering Team",
+      "desc": "Your contributions make an impact, not just a cog in the machine. Don't be afraid to ask questions or share your thoughts/concerns."
+    },
+    "commentClaire": {
+      "name": "Claire",
+      "position": "Technical Communications Team",
+      "desc": "Function myself as a bridge between our engineering team and the rest of the world by telling the story of our products in a clear, structured, and intriguing manner. Mistakes will be made, but they are worth it as long as lessons are learnt."
+    },
+    "commentFrank": {
+      "name": "Frank",
+      "position": "Engineering Team",
+      "desc": "ML is becoming more and more ubiquitous, but a lot of infrastructure for ML is still lacking. Zilliz is democratizing vector databases - a major component of ML application development now and in the future."
+    },
+    "commentLi": {
+      "name": "Li",
+      "position": "Engineering Team",
+      "desc": "Barely felt that I was working for myself but someone else in my previous experience. More enjoyed the startup atmosphere in Zilliz where I can work for myself and contribute to something I will be proud of in the future."
+    },
+    "commentPatrick": {
+      "name": "Patrick",
+      "position": "Engineering Team",
+      "desc": "Pushing the boundary between known and unknown. Working on interesting problems; learning while having fun!"
+    }
+  },
+  "culturalAttributes": {
+    "title": "Our Cultural Attributes",
+    "attribute1": {
+      "title": "Mission driven",
+      "desc": "We're dedicated to serving something beyond ourselves and to bringing the power of AI to the customers."
+    },
+    "attribute2": {
+      "title": "Bias for action",
+      "desc": "We trigger action based on thoughtful consideration. We focus on the goals, process and results of our actions."
+    },
+    "attribute3": {
+      "title": "Aim for higher",
+      "desc": "High standards are the basis for building trusting relationships. Always execute with excellence."
+    },
+    "attribute4": {
+      "title": "Altruism",
+      "desc": "Bring out our best, let go of egos, and work with empathy and trust to achieve great things together."
+    }
+  },
+  "benefit": {
+    "title": "Our Benefits",
+    "compensation": "Competitive compensation (cash + equity).",
+    "bonus": "Regular bonus and equity refresh opportunities​.",
+    "insurance": "Medical, dental, and vision insurance.",
+    "vacation": "Paid time off, including vacation, sick leave and global reset/wellbeing days.",
+    "retirement": "Generous 401(k) and regional retirement plans.",
+    "remote": "Hybrid work model/Remote work opportunities available.",
+    "notify": "*Please note that while our philosophy is the same in every place Zillizers work, benefits may vary by office/country."
+  },
+  "job": {
+    "title": "Opening Positions",
+    "allDepartments": "All Departments",
+    "allLocations": "All Offices",
+    "emptyNotice": "Unfortunately, no current openings match your search. Please try changing your filters, or check back soon for new openings."
+  }
+}

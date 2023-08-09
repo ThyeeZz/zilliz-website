@@ -1,0 +1,27 @@
+{
+  "helloWorld": "Hello world!",
+  "required": "This field is required.",
+  "button": {
+    "freeTrial": "Free trial",
+    "tryFree": "Try Free",
+    "subscribe": "Subscribe",
+    "success": "Success!",
+    "wait": "",
+    "doc": "Documentation",
+    "readStory": "Read story",
+    "loadMore": "Load more",
+    "learnMoreAbout": "Learn more about",
+    "contactUs": "Contact us",
+    "contactSale": "Contact Sales",
+    "getStarted": "Get Started",
+    "learnMore": "Learn more",
+    "viewPrice": "View Pricing",
+    "login": "Login",
+    "contact": "Contact us",
+    "compare": "Compare",
+    "bannerLearnMore": "Learn more  >>"
+  },
+  "warning": {
+    "required": "This field is required."
+  }
+}

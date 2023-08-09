@@ -1,0 +1,11 @@
+{
+  "anchorTitle": "本页面导航",
+  "manuTitle": "文档菜单",
+
+  "search": {
+    "placeholder": "搜索",
+    "title": "搜索结果",
+    "result": "找到 {{number}} 条结果：",
+    "noData": "抱歉，未找到符合条件的结果："
+  }
+}

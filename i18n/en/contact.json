@@ -1,0 +1,31 @@
+{
+  "form": {
+    "tagLine": "Get in touch",
+    "title": "We’re ready to help. Simply complete the form and we'll be in touch soon.",
+    "formTitle": "Tell us more about yourself",
+    "name": "Name",
+    "email": "Email address",
+    "company": "Company",
+    "job": "Job title",
+    "interest": "What is your area of interest?",
+    "method": "What is your preferred contact method?",
+    "rigion": "Your country or Region",
+    "hear": "How did you hear about us?"
+  },
+  "office": {
+    "title": "Our offices",
+    "sf": {
+      "address": "Redwood City, USA",
+      "addressDetail": "201 Redwood Shores Pkwy, Suite 330, Redwood City, CA 94065"
+    },
+    "sh": {
+      "address": "Shanghai, China",
+      "addressDetail": "168 Jingzhou Rd, Yangpu District"
+    }
+  },
+  "button": {
+    "submit": "Submit",
+    "wait": "Please wait",
+    "success": "Success!"
+  }
+}

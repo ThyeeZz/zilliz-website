@@ -1,0 +1,139 @@
+{
+  "head": {
+    "title": "什么是 Milvus？",
+    "desc": "Milvus 向量数据库专为向量查询与检索设计，能够为万亿级向量数据建立索引。与现有的主要用作处理结构化数据的关系型数据库不同，Milvus 在底层设计上就是为了处理由各种非结构化数据转换而来的向量而生。",
+    "btnLabel": "免费试用 Zilliz Cloud",
+    "history": "Milvus 于 2019 年开源，可用于存储、索引和管理由深度神经网络学习与其他机器学习模型生成的海量向量。Zilliz 将 Milvus 作为孵化项目贡献给 LF AI & Data 基金会。Milvus 项目于 2021 年 6 月正式毕业，现已成为向量数据库业内领导者。"
+  },
+
+  "community": {
+    "title": "强大的社区支持",
+    "github": {
+      "number": "20,000+",
+      "desc": "GitHub 获星"
+    },
+    "slack": {
+      "number": "4,100+",
+      "desc": "社区人数"
+    },
+    "downloads": {
+      "number": "3,800,000+",
+      "desc": "下载量"
+    },
+    "contributors": {
+      "number": "2,000+",
+      "desc": "贡献者"
+    }
+  },
+  "whyMilvus": {
+    "title": "为什么选择 Milvus？",
+    "desc1": "搭建相似性搜索应用十分容易，但是将应用投入生产会面临不小的挑战。向量数据的结构十分复杂，因此不适合使用传统的数据表格。有些开发者会使用向量检索库来存储向量数据和进行向量相似性搜索。",
+    "desc2": "但是，使用这种方法，会在构建索引时遇到问题。此外，搭建向量存储解决方案的成本高昂，并且还需要考虑扩展性的问题。Milvus 向量数据库能够帮助您轻松应对上述问题。"
+  },
+  "features": {
+    "title": "Milvus 是一款云原生的开源向量数据库，专为向量相似性搜索和 AI 应用赋能",
+    "easy": {
+      "title": "简单易用",
+      "desc": "使用 Milvus 向量数据库，仅需几分钟便可轻松搭建大型向量相似性搜索服务。Milvus 提供多种语言的 SDK，操作简单直观。"
+    },
+    "fast": {
+      "title": "快速高效",
+      "desc": "Milvus 有效节省硬件资源，并提供多样的索引算法。Milvus 性能出色，向量召回速率极高。"
+    },
+    "available": {
+      "title": "高可用性",
+      "desc": "Milvus 向量数据库受上千家企业信赖，适用于多种用例场景。Milvus 系统组件相互独立、隔离，能充分确保系统弹性和可靠性。"
+    },
+    "scalable": {
+      "title": "高可扩展性",
+      "desc": "Milvus 的分布式架构和高吞吐量特性使其非常适合处理大规模向量数据。 "
+    },
+    "cloud": {
+      "title": "云原生",
+      "desc": "Milvus 是一款云原生的向量数据库，采用存储与计算分离的架构设计，支持灵活扩展。"
+    },
+    "feature": {
+      "title": "丰富功能",
+      "desc": "Milvus 支持多种数据类型，提供数据过滤、多种数据一致性等级、Time Travel 等丰富的功能。"
+    }
+  },
+  "mechanism": {
+    "title": "Milvus 工作原理",
+    "desc": "Milvus 2.0 是一款云原生向量数据库，采用存储与计算分离的架构设计，所有组件均为无状态组件，极大地增强了系统弹性和灵活性。整个系统分为四个层面：",
+    "levels": {
+      "accessLayer": {
+        "title": "接入层（Access Layer）",
+        "desc": "系统的门面，由一组无状态 proxy 组成。对外提供用户连接的 endpoint，负责验证客户端请求并合并返回结果。"
+      },
+      "coordinatorService": {
+        "title": "协调服务（Coordinator Service）",
+        "desc": "系统的大脑，负责分配任务给执行节点。协调服务共有四种角色，分别为 root coord、data coord、query coord 和 index coord。"
+      },
+      "workerNodes": {
+        "title": "执行节点（Worker Node）",
+        "desc": "系统的四肢，负责完成协调服务下发的指令和 proxy 发起的数据操作语言（DML）命令。执行节点分为三种角色，分别为 data node、query node 和 index node。"
+      },
+      "storage": {
+        "title": "存储服务 （Storage）",
+        "desc": "系统的骨骼，负责 Milvus 数据的持久化，分为元数据存储（meta store）、消息存储（log broker）和对象存储（object storage）三个部分"
+      }
+    }
+  },
+  "applications": {
+    "title": "Milvus 应用场景",
+    "desc": "Milvus 深受全球 1000 多家企业用户的信赖，应用场景丰富多样。",
+    "application": {
+      "textSearch": {
+        "title": "图片检索系统",
+        "desc": "以图搜图，从海量数据库中即时返回与上传图片最相似的图片"
+      },
+      "advertising": {
+        "title": "视频检索系统",
+        "desc": "将视频关键帧转化为向量并插入 Milvus，便可检索相似视频，或进行实时视频推荐。"
+      },
+      "eCommerce": {
+        "title": "音频检索系统",
+        "desc": "快速检索海量演讲、音乐、音效等音频数据，并返回相似音频。"
+      },
+      "ugc": {
+        "title": "分子式检索系统",
+        "desc": "超高速检索相似化学分子结构、超结构、子结构。"
+      },
+      "riskControl": {
+        "title": "推荐系统",
+        "desc": "根据用户行为及需求推荐相关信息或商品。"
+      },
+      "newDrug": {
+        "title": "智能问答机器人",
+        "desc": "交互式智能问答机器人可自动为用户答疑解惑。"
+      }
+    }
+  },
+  "keyResources": {
+    "readMore": "阅读更多",
+    "title": "关键资源",
+    "resources": [
+      {
+        "tagLine": "白皮书",
+        "title": "Milvus 性能评估 2023",
+        "btnLabel": "阅读白皮书",
+        "desc": "在本教程中，您将了解关于基于文本的非结构化数据。",
+        "link": "/resources/milvus-performance-benchmark"
+      },
+      {
+        "tagLine": "对比",
+        "title": "开源向量数据库",
+        "desc": "阅读与向量数据库相关的概念和指南的精选列表。",
+        "btnLabel": "了解更多",
+        "link": "/comparison"
+      },
+      {
+        "tagLine": "案例研究",
+        "title": "Milvus 应用案例",
+        "desc": "在各个行业中使用 Milvus 的实际案例研究。",
+        "btnLabel": "浏览案例",
+        "link": "/blog"
+      }
+    ]
+  }
+}

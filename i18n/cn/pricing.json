@@ -1,0 +1,203 @@
+{
+  "header": {
+    "tagLine": "定价",
+    "title": "Zilliz Cloud 定价",
+    "description": "了解 Zilliz Cloud 定价策略，自助<0>估算</0>价格，挑选最适合您的解决方案"
+  },
+  "buttons": {
+    "start": "立即注册",
+    "advanced": "高级CU计算器"
+  },
+  "estimator": {
+    "title": "估算成本",
+    "desc": "使用价格计算器估算您的使用成本。",
+    "tooltip": "计算单位（CU）是数据库部署的物理资源单位。不同类型的CU包含不同组合的CPU、内存和存储。性能优化的CU适用于低延迟或高吞吐量的相似度搜索。容量优化的CU可以处理比性能优化的CU大5倍的数据量，但搜索延迟较高。",
+    "tip": "要使用高级CU计算器，请在桌面或平板电脑上查看网站。"
+  },
+  "calculator": {
+    "title": "CU计算器",
+    "desc": "使用我们全面的CU计算器，在免费试用结束后估算您的CU使用量和费用。",
+    "button": {
+      "add": "添加新字段",
+      "contact": "联系我们"
+    },
+    "largeSize": "您的数据量过大，请联系我们获取费用估算。",
+    "label": {
+      "cuType": "CU类型",
+      "plan": "版本",
+      "provider": "云服务提供商",
+      "region": "地域",
+      "entityNum": "向量数量",
+      "vectorDimension": "向量维度",
+      "cuSize": "CU 数量",
+      "storageSize": "存储",
+      "cuCost": "计算价格",
+      "storageCost": "存储价格",
+      "totalCost": "总价",
+      "duration": "时长",
+      "schema": {
+        "title": "模式",
+        "filedName": "字段名称 <0>（可选）</0>",
+        "fieldType": "字段类型",
+        "index": "索引",
+        "dimension": "维度",
+        "averageLength": "平均长度"
+      }
+    },
+    "whatIsCUtip": {
+      "title": "CU 类型选项：",
+      "desc": {
+        "typeOne": "<0>性能型 CU</0> 适用于需要低延迟和高吞吐量的向量相似性检索场景。",
+        "typeTwo": "<0>容量型 CU</0> 相比性能型 CU 能够存储多 5 倍的数据，但延迟可能会增加，因此适用于需要大量存储空间的场景。",
+        "typeThree": "<0>经济型 CU</0> 可支持的数据规模与容量型 CU 一致，但价格更低，性能略有下降，适用于追求高性价比或预算敏感的场景。"
+      }
+    },
+    "tooltip": {
+      "cuType": "计算单位（CU）是数据库部署的物理资源单位。不同类型的CU包含不同组合的CPU、内存和存储。性能优化的CU适用于低延迟或高吞吐量的相似度搜索。容量优化的CU可以处理比性能优化的CU大5倍的数据量，但搜索延迟较高。",
+      "fieldType": "每个字段中项目的数据类型。",
+      "index": "选择是否在此字段上创建索引。",
+      "dimension": "向量数据的维度。上限为32,768。",
+      "averageLength": "字符串数据的平均长度。上限为65,535。"
+    },
+    "prompt": {
+      "dimension": "值不能超过32,768。",
+      "averageLength": "值不能超过65,535。"
+    },
+    "resultTip": "<0>价格计算器仅考虑向量规模。如果您的数据中包含非向量字段（如整数、字符串、JSON 等）</0>，实际情况可能于计算结果有所出入。如需准确估算所需容量，我们建议您在免费试用期内进行 PoC 测试。"
+  },
+  "newPricing": {
+    "free": "SERVERLESS",
+    "dedicated": "DEDICATED",
+    "pricing": "每月 <0>¥{{price}}</0> 起",
+    "hardWare": "硬件",
+    "features": "特性",
+    "support": "技术支持",
+    "security": "数据安全与合规",
+    "serverless": {
+      "planName": "Starter",
+      "slogan": "",
+      "desc": "The simplest way to experience a fully-managed vector database.",
+      "hardWare": [
+        "No CU options",
+        "Shared environment",
+        "Up to 2 free collections"
+      ],
+      "features": [
+        "No credit card required to start",
+        "Available on GCP",
+        "Single availability zone",
+        "Single project"
+      ],
+      "support": ["Community support"],
+      "security": []
+    },
+    "standard": {
+      "planName": "标准版",
+      "slogan": "",
+      "desc": "适合个人开发者或小规模团队，高性价比，提供向量数据库高级特性。",
+      "hardWare": {
+        "hardWareOne": "3 种 CU 类型可供选择：性能型、容量型、经济型。<0>了解更多</0>"
+      },
+      "features": [
+        "支持阿里云部署",
+        "持久化数据存储，灵活的数据备份恢复（￥0.5 / GB / 月）",
+        "单AZ",
+        "可创建多个项目",
+        "角色权限访问控制（RBAC）和组织管理",
+        "Prometheus 监控指标"
+      ],
+      "support": {
+        "supportOne": "邮件支持，<0>服务响应时间 SLA</0>（极紧急问题：4 小时内回复；中等问题：1 个工作日内回复；一般问题：2 个工作日内回复）",
+        "supportTwo": "2 名技术支持"
+      },
+      "security": ["企业级数据传输加密和静态加密", "SOC 2 Type II 合规"]
+    },
+    "enterprise": {
+      "planName": "企业版",
+      "slogan": "",
+      "desc": "适合个人开发者、小规模团队、或大型企业或组织，是构建向量数据平台首选方案，提供高可用、数据安全、专家技术支持。",
+      "hardWare": {
+        "hardWareOne": "3 种 CU 类型可供选择：性能型、容量型、经济型。<0>了解更多</0>"
+      },
+      "features": [
+        "支持阿里云部署",
+        "多 AZ 高可用",
+        "保证每月 99.9% 正常运行时间",
+        "24 小时自动备份数据，备份保留 7 天",
+        "Private Link 连接",
+        "多项目管理与协作",
+        "角色权限访问控制和组织管理",
+        "Prometheus 监控指标",
+        "持久化数据存储，灵活的数据备份恢复（￥0.5/GB/月）"
+      ],
+      "support": {
+        "supportOne": "全天候邮件与企业微信支持，<0>服务响应时间 SLA</0>（紧急问题：1 小时内回复；中等问题：4 小时内回复；一般问题：1 个工作日内回复）",
+        "supportTwo": "4 名技术支持"
+      },
+      "security": [
+        "资源监控及告警",
+        "企业级数据传输加密和静态加密",
+        "SOC 2 Type II 合规"
+      ]
+    },
+    "selfHost": {
+      "planName": "专有部署",
+      "slogan": "",
+      "price": "适用于高度注重数据隐私和合规的场景。",
+      "desc": "专有部署包含所有企业版特性，支持在您自己的 VPC 上部署全托管的向量集群服务。",
+      "features": [
+        "支持在多个云平台部署",
+        "深度适配 Kubernetes",
+        "保证企业级数据安全",
+        "提供使用指导"
+      ]
+    },
+    "priceTable": {
+      "standardTitle": "Zilliz Cloud 标准版",
+      "enterpriseTitle": "Zilliz Cloud 企业版",
+      "pricePerHour": "¥{{price}}/小时",
+      "pricePerGBPerMonth": "¥{{price}} / GB / 月",
+      "cuTypes": ["经济型", "容量型", "性能型"],
+      "tableHeaders": {
+        "type": "CU 类型",
+        "cuPrice": "CU 定价",
+        "storagePrice": "存储价格",
+        "awsCuPrice": "AWS CU Price",
+        "gcpCuPrice": "GCP CU Price",
+        "capacity": "CU 容量",
+        "awsPrice": "AWS Storage Price",
+        "gcpPrice": "GCP Storage Price"
+      },
+      "standardPrice": {
+        "capacity": [
+          "以 128 维向量为基准估计，可支持 2500 万个向量；或以 768 维向量为基准估计，可支持 500 万个向量。",
+          "以 128 维向量为基准估计，可支持 2500 万个向量；或以 768 维向量为基准估计，可支持 500 万个向量。",
+          "以 128 维向量为基准估计，可支持 500 万个向量；或以 768 维向量为基准估计，可支持 100 万个向量。"
+        ]
+      }
+    },
+    "slaTable": {
+      "standardTitle": "服务响应时间 SLA 详情（标准版）",
+      "enterpriseTitle": "服务响应时间 SLA 详情（企业版）",
+      "nHour_one": "{{count}} 小时",
+      "nHour_other": "{{count}} 小时",
+      "nDay_one": "{{count}} 个工作日",
+      "nDay_other": "{{count}} 个工作日",
+      "tableHeaders": {
+        "urgent": "紧急问题",
+        "high": "中等问题",
+        "normal": "一般问题"
+      },
+      "standard": {
+        "urgent": "紧急问题是指严重影响服务的功能或可用性的问题，导致用户不能正常执行日常工作。例如：<0>集群服务不可用</0> <0>频繁或反复出现的报错影响功能可用性</0>",
+        "high": "中等问题是指会导致服务质量下降的问题，用户在执行日常操作时有困难且在问题解决之前能够进行工作。例如：<0>性能异常下滑所导致的服务质量下降</0> <0>不显著影响集群功能或平台服务的报错</0>",
+        "normal": "一般问题是指非紧急的用户体验和功能相关问题，对用户的业务没有直接影响。例如：<0>一般用户需求，如协助配置等需求</0> <0>功能需求或提升服务的需求</0> <0>不影响性能和功能的小型 bug</0>"
+      },
+      "enterprise": {
+        "urgent": "紧急问题是指严重影响服务的功能或可用性的问题，导致用户不能正常执行日常工作。例如：<0>集群服务不可用</0> <0>频繁或反复出现的报错影响功能可用性</0>",
+        "high": "中等问题是指会导致服务质量下降的问题，用户在执行日常操作时有困难且在问题解决之前能够进行工作。例如：<0>性能异常下滑所导致的服务质量下降</0> <0>不显著影响集群功能或平台服务的报错</0>",
+        "normal": "一般问题是指非紧急的用户体验和功能相关问题，对用户的业务没有直接影响。例如：<0>一般用户需求，如协助配置等需求</0> <0>功能需求或提升服务的需求</0> <0>不影响性能和功能的小型 bug</0>"
+      }
+    }
+  }
+}

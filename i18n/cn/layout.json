@@ -1,0 +1,143 @@
+{
+  "header": {
+    "buttons": {
+      "contact": "联系我们",
+      "login": "登录",
+      "getStarted": "免费试用",
+      "learnMore": "了解更多",
+      "saveSpot": "立即查看",
+      "download": "下载白皮书",
+      "readNow": "阅读文章"
+    },
+    "product": {
+      "title": "产品",
+      "zilliz": {
+        "title": "Zilliz Cloud",
+        "desc": "全托管 SaaS 及 PaaS 服务，深度优化、开箱即用的 Milvus 体验。"
+      },
+      "milvus": {
+        "title": "Milvus",
+        "desc": "专为可扩展的相似性搜索而打造的开源向量数据库。"
+      },
+      "subMenu": {
+        "cloudAndMilvus": "Zilliz Cloud 与 Milvus 对比",
+        "benchmark": "性能测试",
+        "openSource": "开源项目"
+      },
+      "recommend": {
+        "title": "适配各类大模型应用！手把手教你选择 Zilliz Cloud 实例类型"
+      }
+    },
+    "pricing": {
+      "title": "定价",
+      "subMenu": {
+        "plan": {
+          "title": "定价方案",
+          "intro": "灵活的计费方式和清晰的计费规则，满足不同的业务场景需求。"
+        },
+        "calculator": {
+          "title": "价格计算器",
+          "intro": "自助估算使用成本。"
+        },
+        "marketplace": {
+          "title": "阿里云云市场",
+          "intro": "敬请期待。"
+        }
+      },
+      "recommend": {
+        "title": "向量数据库发展迎里程碑时刻！Zilliz Cloud 全新升级：超高性价比，向量数据库唾手可得"
+      }
+    },
+    "developer": {
+      "title": "开发者社区",
+      "document": {
+        "title": "文档",
+        "desc": "一次找全所有和 Zilliz Cloud 开发相关的文档。"
+      },
+      "subMenu": {
+        "learn": "学习中心",
+        "community": "社区"
+      },
+      "recommend": {
+        "title": "Hello Vector DB｜认识一下，这才是真正的向量数据库"
+      }
+    },
+    "resource": {
+      "title": "资源中心",
+      "subMenu": {
+        "blog": "博客",
+        "whitepaper": "白皮书",
+        "webinar": "线上直播",
+        "event": "活动"
+      },
+      "recommend": {
+        "title": "非结构化数据处理：我们为什么需要向量数据库？"
+      }
+    },
+    "solution": {
+      "title": "解决方案",
+      "product": {
+        "title": "场景解决方案",
+        "useCase": "增强大语言模型",
+        "viewAll": "查看全部场景解决方案"
+      },
+      "recommend": {
+        "title": "Milvus 在 Likee 短视频去重业务中的实践"
+      }
+    }
+  },
+  "footer": {
+    "product": {
+      "name": "产品",
+      "cloud": "Zilliz Cloud",
+      "milvus": "Milvus",
+      "gptcache": "GPTCache",
+      "towhee": "Towhee",
+      "attu": "Attu",
+      "cli": "Milvus CLI",
+      "feder": "Feder"
+    },
+    "resources": {
+      "name": "资源",
+      "tutorials": "教程",
+      "doc": "文档",
+      "whitepaper": "白皮书和线上直播",
+      "learn": "学习",
+      "benchmark": "性能测试",
+      "comparison": "竞品对比",
+      "blog": "博客",
+      "glossary": "术语表"
+    },
+    "company": {
+      "name": "公司",
+      "event": "活动",
+      "news": "新闻中心",
+      "about": "关于我们",
+      "contact": "联系我们",
+      "contactSales": "联系商务",
+      "partners": "合作伙伴",
+      "join": "招贤纳士",
+      "joinTag": "热招中"
+    },
+    "follow": "关注我们",
+    "contact": "联系我们",
+    "terms": {
+      "usage": "使用条款",
+      "private": "个人信息保护政策",
+      "security": "数据安全政策",
+      "systemStatus": "系统状态"
+    },
+    "mark": "LF AI、LF AI & Data、Milvus，以及相关的开源项目名称为 Linux Foundation 所有商标",
+    "copyRight": "版权所有 ©{{date}} 上海赜睿智能科技有限公司保留所有权利"
+  },
+  "startTrialBanner": {
+    "getStarted": "开启您的 Zilliz Cloud 之旅",
+    "freeTrialBtn": "申请试用"
+  },
+  "cookieConsent": {
+    "title": "是否接受 Cookies？",
+    "content": "本网站使用 Cookies 来增强用户体验。",
+    "declineBtn": "拒绝",
+    "acceptBtn": "接受"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "main": {
+    "title": "Brand assets",
+    "subTitle": "Our visual elements in all communications"
+  },
+  "btn": {
+    "guideline": "Download brand guidelines",
+    "logoKit": "Download logo kit",
+    "logoMark": "Download logomark",
+    "inter": "Download Inter"
+  },
+  "ourLogo": {
+    "title": "Our logo",
+    "desc": "Our logo combines logomark and logotype. As the official logo, this is who we are. We want our logo to be instantly recognizable to public, please do not modify any details of our logo. ",
+    "first": "First priority",
+    "firstDesc": "Use a two-color version of the logo whenever possible.",
+    "second": "Second priority",
+    "secondDesc": "Only use the black or white variations in low reproduction environments when a two-color variation cannot perform."
+  },
+  "logoMark": {
+    "title": "Logo mark",
+    "desc": "Our logomark is a shorter version of our logo. Use the Z-mark on its own only if you do not have enough room for the full logo or in cases when the Zilliz brand has already been established."
+  },
+  "typography": {
+    "title": "Typography",
+    "desc": "Always use Inter, which is a key component of brand design system. It’s a modernistic Sans Serif specially designed for digital channels and offers a variety of typestyles. As an open source font, you can easily download it from google fonts. "
+  },
+  "brandColor": {
+    "title": "Brand color",
+    "desc": "Our Blue is iconic. When combined with black and white, it creates a minimalistic style while still looking modern and bold."
+  },
+  "layout": {
+    "title": "Layout",
+    "desc": "To do some layout on a page, place the zilliz logo in any corner or in the center of the page."
+  },
+  "use": {
+    "title": "Use our branded materials",
+    "desc": "Zilliz's trademarks are owned by Zilliz and be used only as provided in these guidelines or with the permission of zilliz."
+  }
+}

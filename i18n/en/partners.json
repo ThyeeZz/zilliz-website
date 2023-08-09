@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "Partners",
+    "desc": "Zilliz partners with leading technology, solution and service providers to enable users to build powerful vector search applications.",
+    "btnLabel": "Become a Partner"
+  },
+  "all": "All Partners",
+  "cards": {
+    "aws": "AWS",
+    "googleCloud": "Google Cloud",
+    "nvidia": "NVIDIA",
+    "openAi": "OpenAI",
+    "huggingFace": "Hugging Face",
+    "cohere": "co:here",
+    "pyTorch": "PyTorch"
+  },
+  "detail": {
+    "tagLine": "Partner"
+  }
+}

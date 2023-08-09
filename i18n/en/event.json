@@ -1,0 +1,65 @@
+{
+  "title": "Events",
+  "desc": "Events, conferences and webinars.",
+  "noData": "No more events",
+
+  "buttons": {
+    "register": "Register Now",
+    "video": "Watch Video",
+    "loadMore": "Load More"
+  },
+  "officeHours": {
+    "title": "Community Office Hours",
+    "desc": "Share your latest project, ask questions, and meet other users at our weekly community office hours hosted by the Zilliz team.",
+    "time": "Every Tuesday 1:30 Pacific Time",
+    "button": "Save your spot"
+  },
+  "latest": {
+    "title": "Upcoming Events",
+    "pacific": "{{time}} Pacific",
+    "eastern": "{{time}} Eastern"
+  },
+
+  "past": {
+    "title": "Past Events",
+    "minutes": "minutes",
+
+    "tabs": {
+      "all": "ALL",
+      "online": "Online",
+      "offline": "Offline"
+    }
+  },
+
+  "register": {
+    "form": {
+      "title": "Join the Webinar",
+      "error": "Oops, something went wrong, please try again later...",
+      "loading": "Loading..."
+    },
+    "title": "Meet the Speaker",
+    "desc": "Join the session for live Q&A with the speaker",
+    "success": {
+      "title": "You’re in!",
+      "pacific": "{{time}} Pacific",
+      "eastern": "{{time}} Eastern",
+      "presentation": "{{time}}-minute presentation",
+      "q&a": "{{time}}-minute audience Q&A session",
+      "learnMore": {
+        "title": "Learn More",
+        "resource": {
+          "title": "Free Resource",
+          "btnLabel": "Explore Resources"
+        },
+        "event": {
+          "title": "Events",
+          "btnLabel": "Upcoming Events"
+        },
+        "cloud": {
+          "title": "Zilliz Cloud",
+          "btnLabel": "Try Zilliz Cloud"
+        }
+      }
+    }
+  }
+}

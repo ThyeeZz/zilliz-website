@@ -1,0 +1,59 @@
+{
+  "title": "活动",
+  "desc": "线上及线下活动、直播",
+  "noData": "没有更多活动",
+
+  "buttons": {
+    "register": "立即注册",
+    "video": "观看视频"
+  },
+
+  "latest": {
+    "title": "即将举办",
+    "beijing": "北京时间 {{time}}",
+    "eastern": "{{time}} 东部时间"
+  },
+
+  "past": {
+    "title": "所有活动",
+    "minutes": "分钟",
+
+    "tabs": {
+      "all": "全部",
+      "online": "在线",
+      "offline": "线下"
+    }
+  },
+
+  "register": {
+    "form": {
+      "title": "加入网络研讨会",
+      "error": "哎呀，出了点问题，请稍后重试...",
+      "loading": "加载中..."
+    },
+    "title": "与演讲者见面",
+    "desc": "参加与演讲者的现场问答环节",
+    "success": {
+      "title": "您已成功加入！",
+      "beijing": "北京时间 {{time}}",
+      "eastern": "{{time}} 东部时间",
+      "presentation": "{{time}}分钟的演示",
+      "q&a": "{{time}}分钟的问答环节",
+      "learnMore": {
+        "title": "了解更多",
+        "resource": {
+          "title": "免费资源",
+          "btnLabel": "查看资源"
+        },
+        "event": {
+          "title": "活动",
+          "btnLabel": "即将举行的活动"
+        },
+        "cloud": {
+          "title": "Zilliz云",
+          "btnLabel": "试用Zilliz云"
+        }
+      }
+    }
+  }
+}

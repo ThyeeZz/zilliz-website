@@ -1,0 +1,43 @@
+{
+  "loading": "加载中...",
+  "title": "咨询与试用",
+  "tabs": {
+    "contactSales": "联系销售",
+    "contact": "问题咨询"
+  },
+  "subTitles": {
+    "contact": "<0>如果您对产品定价或版本选型有任何疑问，请随时联系我们。</0><0>表单提交后，我们会尽快给您回复。</0>",
+    "consult": "有任何问题，欢迎随时联系我们。表单提交后，我们会尽快给您答复。"
+  },
+
+  "office": {
+    "title": "办公地址",
+    "cn": {
+      "name": "中国",
+      "sh": {
+        "name": "上海",
+        "address": "上海市杨浦区荆州路 168 号安联大厦 1601"
+      },
+      "hz": {
+        "name": "杭州",
+        "address": "浙江省杭州市余杭区仓前街道奥克斯中心 5 幢 1706 室"
+      },
+      "bj": {
+        "name": "北京",
+        "address": "北京市海淀区中关村辉煌时代大厦 3 层"
+      }
+    },
+    "us": {
+      "name": "美国",
+      "rw": {
+        "name": "Redwood City, USA",
+        "address": "201 Redwood Shores Pkwy, Suite 330, Redwood City, CA 94065"
+      }
+    }
+  },
+  "button": {
+    "submit": "提交",
+    "wait": "请稍候",
+    "success": "成功！"
+  }
+}

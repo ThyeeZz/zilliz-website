@@ -1,0 +1,180 @@
+{
+  "header": {
+    "title": "Hello,\nVector World",
+    "desc": "September 24-25, 2022",
+    "btnLabel": "Join now",
+    "organize": "ORGANIZED BY"
+  },
+  "about": {
+    "title": "Vector world: new database era",
+    "desc1": "In today's rapidly growing Internet, 80% of human society's data exists in the form of unstructured data, which is not effectively utilized. In the past decades, computers have been able to efficiently process structured data such as numerical values and text, but lack effective methods for unstructured data such as images, videos, behavioral portraits, 3D structures of compounds and gene sequences, which are widely available.",
+    "desc2": "IDC observes and predicts that between 2018 and 2025, the amount of data generated globally will grow from 33 ZB to 175 ZB, a compound growth rate of 27%, of which more than 80% will be unstructured data that is more difficult to process. It is expected that by 2030, the global data volume will reach 3,5000 EB. Unstructured data has its own characteristics that are difficult to manage, so it is the biggest challenge for enterprises to handle unstructured data well.",
+    "desc3": "How to use vectors to retrieve huge amount of unstructured data? What are the advantages and prospects of vector databases, and how to use large-scale deep learning networks to achieve innovation and application of algorithms and models in the field of data in the AI era? How should an open source database come out of the loop in 2022? If you are also interested or even fascinated by these questions, please join us to explore the cutting-edge data science field."
+  },
+  "attend": {
+    "title": "Who should attend",
+    "players": {
+      "name": "Professional Players",
+      "desc1": "Vertical developers and practitioners",
+      "desc2": "Community project users and potential users"
+    },
+    "community": {
+      "name": "Ecology and Community",
+      "desc1": "Upstream and downstream ecological users & vendors",
+      "desc2": "Well-known open source project players in the database field"
+    },
+    "general": {
+      "name": "General Participants",
+      "desc1": "General developers",
+      "desc2": "industry followers",
+      "desc3": "open source circle follow media",
+      "desc4": "investment institutions"
+    }
+  },
+  "speakers": {
+    "title": "Featured speakers",
+    "speaker1": {
+      "name": "Charles Xie",
+      "title": "Founder and CEO of Zilliz ",
+      "desc": "Charles is the founder and CEO of Zilliz, and the inventor of Milvus. He is a board member of LF AI & Data and the former board's chairperson. Before Zilliz, Charles was a founding engineer of the Oracle 12c cloud DB project. Charles is the MCS of UW–Madison."
+    },
+    "speaker2": {
+      "name": "Xiaofan Luan",
+      "title": "Partner and Director of Engineering at Zilliz",
+      "desc": "Xiaofan is the partner and director of engineering at Zilliz, and a TAC member of LF AI & Data. He was previously an engineering manager at Alibaba Cloud. Before that, he was an engineer at Oracle and Hedvig. Xiaofan is a master of Electrical and Computer Engineering from Cornell."
+    },
+    "speaker3": {
+      "name": "Rentong Guo",
+      "title": "Partner, Director of Product at Zilliz",
+      "desc": "Rentong is the partner and director of product at Zilliz, and the system architect of Milvus and the lead of Towhee. His works have been published on top-tier journals and conferences, including SIGMOD, VLDB, IEEEE TPDS, ect. Dr.Guo holds a Ph.D. degree in CS from HUST."
+    },
+    "speaker4": {
+      "name": "Minwei Tang",
+      "title": "Director of Risk Control at China Telecom BestPay",
+      "desc": "Minwei is a member of TCBVD. He has many years of experience in building algorithms and product capabilities in the field of risk control. He has built a RiskX intelligent risk control system from 0 to 1 at Bestpay. Minwei is graduated from ECUST, majoring in CS."
+    },
+    "speaker5": {
+      "name": "Enwei Jiao",
+      "title": "Principal Engineer at Zilliz",
+      "desc": "Enwei is a principal engineer at Zilliz and contributor to Milvus and Apache Kylin. He is responsible for the research and development of Milvus query engine and has rich experience in database, open source commercialization, OLAP, etc. Enwei holds a master's degree from SJTU."
+    },
+    "speaker6": {
+      "name": "Xiaomeng Yi",
+      "title": "Senior Researcher at Zilliz",
+      "desc": "Xiaomeng is a senior researcher at Zilliz and concentrates on ANNS and resource allocation in DFS. His works have been published on top-tier conferences and journals, including SIGMOD, VLDB, IEEE ICDCS, etc. Dr.Yi holds a Ph.D. in Computer Architecture from HUST."
+    },
+    "speaker7": {
+      "name": "Yunlong Kong",
+      "title": "Senior Data Platform Specialist at MOMO",
+      "desc": "Yunlong is a senior data platform specialist at MOMO. He is an open source enthusiast and a contributor to Milvus, Elasticsearch, Alluxio, etc. He is responsible for the distributed storage direction of MOMO big data platform, and provides data services for content intelligence team."
+    },
+    "speaker8": {
+      "name": "Guanzhao Li",
+      "title": "Senior Researcher in Security Algorithms at HUYA",
+      "desc": "Guanzhao is a senior researcher in Security Algorithms at HUYA. He has rich experience in the field of image content security, mainly involving the application of algorithms such as image recognition, target detection and visual generation in the intelligent audit business."
+    },
+    "speaker9": {
+      "name": "Zeyang Fang",
+      "title": "Senior R&D Engineer at Baidu",
+      "desc": "Zeyang is a senior R&D engineer at Baidu. His main research direction is the development of information flow recommendation, NLP, GL, etc. He has many technical patents and published papers and led his team to win many championships. He graduated from BUPT."
+    },
+    "speaker10": {
+      "name": "Ibrahim Haddad",
+      "title": "VP of Strategic Programs and GM of LF AI & Data",
+      "desc": "Haddad is VP or Strategic Programs and GM of LF Al & Data. Before that, Haddad held technology and portfolio management roles at Motorola, Palm, Hewlett-Packard, and the Linux Foundation. He graduated from Concordia University with a Ph.D. in CS."
+    }
+  },
+  "agenda": {
+    "title": "Agenda",
+    "saturday": {
+      "date": "Saturday, September 24",
+      "schedule1": {
+        "heading": "9:35 am - 10:10 am\nKeynote Speaking",
+        "content": "The state of data science, global data trends, and Zilliz's vision and mission.",
+        "speaker": "Charles Xie",
+        "title": "Founder and CEO of Zilliz"
+      },
+      "schedule2": {
+        "heading": "10:10 am - 10:50 am\nVector Database as a Service - Fully Managed Milvus Service Zilliz Cloud debuts",
+        "content": "The core development team's insights into the basic capabilities of vector retrieval cloud services, as well as the experience and insights of building global SaaS services on the cloud.",
+        "speaker": "Xiaofan Luan",
+        "title": "Partner, Director of Engineering at Zilliz"
+      },
+      "schedule3": {
+        "heading": "10:50 am - 11:30 am\nTowhee: The Unstructured Data ETL Pipeline",
+        "content": "The way to deal with unstructured data well, to build AI applications at the lowest cost, and realize the difficulty of implementing the model in the business.",
+        "speaker": "Rentong Guo",
+        "title": "Partner, Director of Product at Zilliz"
+      },
+      "schedule4": {
+        "heading": "2:30 pm - 3:00 pm\nToolchain and Technology Ecology of Unstructured Data Search",
+        "content": "The current status and panorama of the unstructured data search technology ecosystem. It shares the key open source projects that the Zilliz team is currently promoting, and the positioning of the projects in the technology ecosystem, as well as the way to effectively co-construct with ecological partners to achieve a win-win situation.",
+        "speaker": "Rentong Guo",
+        "title": "Partner, Director of Product at Zilliz"
+      },
+      "schedule5": {
+        "heading": "3:00 pm - 3:40 pm\nIntelligent Risk Control Practice and Application of BestPay",
+        "content": "Bestpay intelligent risk control practice and application, which illustrates the way to use Milvus to build an intelligent financial risk control system, so that AI applications can be quickly and stably implemented in traditional enterprises to empower business.",
+        "speaker": "Minwei Tang",
+        "title": "Director of Risk Control at China Telecom BestPay"
+      },
+      "schedule6": {
+        "heading": "3:40 pm - 4:20 pm\nInterpretation of New Features of the New Generation Milvus and Future Planning",
+        "content": "It's about Milvus' future planning and the development team's experience and insights on how to combine user scenarios to create a database that users are satisfied with.",
+        "speaker": "Enwei Jiao",
+        "title": "Principal Engineer at Zilliz"
+      },
+      "schedule7": {
+        "heading": "4:20 pm - 5:10 pm\nDesign Concept and Industrial Application of PaddleNLP Kit",
+        "content": "PaddleNLP kit design concept and industrial application, and how the Paddle and Milvus ecosystems produce wonderful chemical reactions in industrial applications.",
+        "speaker": "Zeyang Fang",
+        "title": "Senior R&D Engineer at Baidu"
+      }
+    },
+    "sunday": {
+      "date": "Sunday, September 25",
+      "schedule1": {
+        "heading": "9:40 am -10:00 am\nDriving Innovation in the Open Source AI & Data Ecosystem",
+        "content": "How the open source project Milvus has written one of the most successful stories for the Linux Foundation, and how the foundation helps start-up projects in the field of AI & Data to incubate and achieve mutual benefits.",
+        "speaker": "Ibrahim Haddad",
+        "title": "VP of Strategic Programs and GM of LF AI & Data"
+      },
+      "schedule2": {
+        "heading": "10:00 am - 10:40 am\nKey Technical Challenges and Frontier Directions of Vector Retrieval Problems",
+        "content": "Key challenges in vector data analysis, combined with the latest academic research work, to share the exploration and scientific research results of the Zilliz research team in the field of vector approximate search.",
+        "speaker": "Xiaomeng Yi",
+        "title": "Senior Researcher at Zilliz"
+      },
+      "schedule3": {
+        "heading": "10:40 am - 11:10 am\nSensitive Region Features and Retrieval - The practice of HUYA live broadcast on the security of intelligent image content",
+        "content": "HUYA's experience in content risk control and the application of Milvus in the field of image content risk control.",
+        "speaker": "Guanzhao Li",
+        "title": "Senior Researcher in Security Algorithms at HUYA"
+      },
+      "schedule4": {
+        "heading": "11:10 pm - 11:40 pm\nThe Evolution of Vector Retrieval Engine in MOMO Content Intelligence Platform",
+        "content": "MOMO's process and thinking behind the transition from self-built to open source, as well as the usage scenarios of Milvus in business.",
+        "speaker": "Yunlong Kong",
+        "title": "Senior Data Platform Specialist at MOMO"
+      },
+      "schedule5": {
+        "heading": "2:00 pm - 3:00 pm\nWorkShop: Vector database to quick start",
+        "content": "Get started quickly and build your first image search system ",
+        "speaker": "Shiyu Chen",
+        "title": "Senior Software Engineer at Zilliz"
+      }
+    }
+  },
+  "sponsor": {
+    "title": "Our partners",
+    "desc": "The summit is hosted by Zilliz, InfoQ, CSDN, OSC co-hosts and LF AI & DATA, Baidu, MOMO, HUYA and Bestpay co-sponsors the first annual AI vector search industry summit. The summit set a series of Keynote and sub-forum presentations, hoping to bring you developers the top AI technology sharing in the field of unstructured search, hot topics to discuss, and explore more valuable research directions."
+  },
+  "contact": {
+    "title": "Have a question \nabout summit?",
+    "btnLabel": "Contact Us",
+    "dialog": {
+      "title": "Scan the QR code to contact us",
+      "desc": "Join our community on Wechat Group"
+    }
+  }
+}

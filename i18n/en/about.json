@@ -1,0 +1,35 @@
+{
+  "aboutHeader": {
+    "title": "Vector Database for Enterprise-grade AI",
+    "subTitle": "We help organizations create AI/ML applications stunningly easy and fast, no matter their size."
+  },
+  "keyNumbers": {
+    "year": {
+      "title": "2017",
+      "desc": "Founded"
+    },
+    "invest": {
+      "title": "$113 M",
+      "desc": "Investment"
+    },
+    "team": {
+      "title": "100+",
+      "desc": "Team members"
+    }
+  },
+  "companyInfo": {
+    "tagLine": "About us",
+    "title": "The leading provider of vector database and AI technologies.",
+    "desc1": "We are the engineers and scientists who created LF AI Milvus®, the world's most popular open-source vector database.",
+    "desc2": "By taking the burden of complex data infrastructure management off our users, we are committed to bringing the power of AI to every corporation, every organization and every individual."
+  },
+  "investorInfo": {
+    "title": "Our investors",
+    "subTitle": "We’re lucky to be joined on this journey by some of the best investors."
+  },
+  "partnersInfo": {
+    "title": "Our partners",
+    "subTitle": "Trusted by top-tier product companies. We are committed to bringing the power of AI to every corporation, every organization and every individual.",
+    "view": "View Partners"
+  }
+}

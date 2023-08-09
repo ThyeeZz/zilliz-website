@@ -1,0 +1,11 @@
+{
+  "customerStory": "客户故事",
+  "detail": {
+    "content": "内容",
+    "relatedResource": "相关资源",
+    "useCase": "应用场景",
+    "industry": "行业",
+    "technologyUsed": "使用的技术",
+    "share": "分享本文"
+  }
+}

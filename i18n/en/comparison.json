@@ -1,0 +1,28 @@
+{
+  "header": {
+    "title": "Open Source Vector Database Comparison",
+    "desc": "Compare any open source vector database to an alternative by architecture, scalability, performance, use cases and costs.",
+    "btnLabel": "Try Zilliz Cloud for free"
+  },
+  "landingpage": {
+    "compareTitle": "Compare <0>{{database}}</0> with others"
+  },
+  "compareGrid": {
+    "title": "<0>{{itemA}}</0> vs. <0>{{itemB}}</0> on <1>{{field}}</1>",
+    "whstIsRight": "<0>{{itemA}}</0> vs. <0>{{itemB}}</0>: what’s right for me?"
+  },
+  "childrenHeader": {
+    "vsTag": {
+      "title": "Comparisons",
+      "slash": "/",
+      "items": "{{itemA}} vs {{itemB}}"
+    },
+    "title": "{{itemA}} vs. {{itemB}}",
+    "desc": "Compare {{itemA}} vs. {{itemB}} by the following set of capabilities. We want you to choose the best open source database for you, even if it’s not us."
+  },
+  "footer": {
+    "title": "Easy to use, blazing fast open source vector database",
+    "desc": "Deploy a large-scale Milvus similarity search service with Zilliz Cloud in just a few minutes.",
+    "button": "Try Zilliz Cloud for free"
+  }
+}

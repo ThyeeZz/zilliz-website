@@ -1,0 +1,38 @@
+{
+  "buttons": {
+    "doc": "文档"
+  },
+  "attuHeader": {
+    "title": "向量数据库管理工具",
+    "subTitle": "轻击鼠标即可管理向量数据及数据",
+    "tagLine": "Attu",
+    "btn": "免费下载"
+  },
+  "connectMilvus": {
+    "tagLine": "连接至 Milvus",
+    "title": "向量数据库操作可视化",
+    "subTitle": "在 Milvus 向量数据库中轻松进行增删改查等操作。"
+  },
+  "importData": {
+    "tagLine": "导入数据",
+    "title": "轻松导入或导出数据",
+    "subTitle": "从集合中轻松导入或导出 JSON 和 CSV 文件"
+  },
+  "vectorSearch": {
+    "tagLine": "向量相似性搜索",
+    "title": "可视化向量数据搜索和查询",
+    "subTitle": "以可视化方式查询和搜索您的向量数据"
+  },
+  "systemView": {
+    "tagLine": "系统视图",
+    "title": "清晰查看 Milvus 内部数据",
+    "subTitle": "查看 Milvus 节点"
+  },
+  "faq": {
+    "title": "快速上手",
+    "install": "使用Helm 安装 Attu",
+    "manage": "使用Attu 管理 Milvus",
+    "search": "在图形管理界面中搜索向量",
+    "learnMore": "阅读文档"
+  }
+}

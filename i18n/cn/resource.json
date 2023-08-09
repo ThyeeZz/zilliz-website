@@ -1,0 +1,23 @@
+{
+  "tab": {
+    "title": "资源类型",
+    "whitepapers": "白皮书",
+    "customerStories": "客户案例",
+    "webinars": "线上直播",
+    "trainings": "培训课程",
+    "noData": "暂无数据"
+  },
+  "header": {
+    "title": "资源",
+    "desc": "从白皮书到网络研讨会到培训课程，丰富的学习资源帮助您更好了解向量检索和人工智能信息。"
+  },
+  "whitepaper": {
+    "noData": "当前没有白皮书"
+  },
+  "webinars": {
+    "noData": "当前没有线上直播"
+  },
+  "trainings": {
+    "noData": "当前没有培训课程"
+  }
+}

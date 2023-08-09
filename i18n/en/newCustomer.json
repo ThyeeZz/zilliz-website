@@ -1,0 +1,12 @@
+{
+  "customerStory": "Customer Story",
+
+  "detail": {
+    "content": "Content",
+    "relatedResource": "Related Resources",
+    "useCase": "Use case",
+    "industry": "Industry",
+    "technologyUsed": "Technology used",
+    "share": "Share this article"
+  }
+}

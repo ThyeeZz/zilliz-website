@@ -1,0 +1,76 @@
+{
+  "title": "Welcome Poster",
+  "form": {
+    "photo": {
+      "placeholder": "Personal Photo of Yours",
+      "label": "Personal Photo of Yours (Required)"
+    },
+    "heroAvatar": {
+      "placeholder": "Photo of Your Hero",
+      "label": "Photo of Your Hero (Required)"
+    },
+    "firstName": {
+      "placeholder": "First Name",
+      "label": "First Name (Required)"
+    },
+    "lastName": {
+      "placeholder": "Last Name",
+      "label": "Last Name (Required)"
+    },
+    "birthDate": {
+      "placeholder": "",
+      "label": "Date of Birth (Required)"
+    },
+    "birthPlace": {
+      "placeholder": "Please separate city and country with a comma",
+      "label": "Place of Birth (Required)"
+    },
+    "jobTitle": {
+      "placeholder": "Job Title",
+      "label": "Job Title (Required)"
+    },
+    "department": {
+      "placeholder": "Please select an option below",
+      "label": "Department (Required)"
+    },
+    "base": {
+      "placeholder": "Please select an option below",
+      "label": "Work Location (Required)"
+    },
+    "hobbies": {
+      "placeholder": "Separate different hobbies with a semicolon",
+      "label": "Hobbies (Required)"
+    },
+    "education": {
+      "placeholder": "Please list the name of the school and the degree that you achieved",
+      "label": "Educational Background (Required)"
+    },
+    "intro": {
+      "placeholder": "Let us know you better! Please also share a bit more about why you joined Zilliz",
+      "label": "Short Bio (Required)"
+    },
+    "facts": {
+      "placeholder": "",
+      "label": "Fun Facts About Me (Optional)"
+    },
+    "hero": {
+      "placeholder": "Someone inspires you. Can be a real person or a fictional character",
+      "label": "Name of Your Hero (Required)"
+    },
+    "employer": {
+      "placeholder": " Employer Name",
+      "label": " Employer Name {{required}}"
+    },
+    "formerJobTitle": {
+      "placeholder": "Job Title",
+      "label": "Job Title {{required}}"
+    }
+  },
+
+  "prompt": {
+    "monthFormatErr": "Month should be a integer between [1, 12]",
+    "dateFormatErr": "Date should be a integer between [1, 30/31]",
+    "searchResError": "No available data",
+    "requiredError": "This field is required."
+  }
+}

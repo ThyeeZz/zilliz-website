@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "什么是 GPTCache？",
+    "desc": "GPTCache是一个开源工具，能够通过缓存语言模型的响应，来提高 GPT 应用的效率和速度。GPTCache允许用户根据自己的需求自定义缓存规则，包括 embedding 函数、相似性计算方式、存储位置和存储逐出规则等。目前，GPTCache 支持 OpenAI ChatGPT 接口和 LangChain 接口。",
+    "btnLabel": "免费试用"
+  },
+
+  "community": {
+    "title": "高速发展的社区",
+    "github": {
+      "desc": "GitHub 星标"
+    }
+  },
+  "why": {
+    "title": "为什么选择 GPTCache？",
+    "desc1": "使用语义缓存来存储 LLM 响应的好处如下"
+  },
+  "features": {
+    "conclusion": "总的来说，开发用于存储LLM响应的语义缓存可以提供多种好处，包括性能改进、降低成本、更好的可伸缩性、自定义性和降低网络延迟。",
+    "performance": {
+      "title": "提升性能",
+      "desc": "将 LLM 响应存储在缓存中可以显著减少检索响应所需的时间。如果之前的请求已经存储在缓存中，能够更大幅度地降低响应时间，提高应用程序的整体性能。"
+    },
+    "expenses": {
+      "title": "节省开销",
+      "desc": "大多数LLM服务根据请求次数和 <0>令牌数</0> 的组合收费。缓存 LLM 响应可以减少对服务 API 的调用次数，从而节省成本。尤其是在高流量场景下，缓存尤为重要。如果不使用语义缓存，可能会多次调用 API，产生极高的费用。"
+    },
+    "scalability": {
+      "title": "提高可扩展性",
+      "desc": "缓存 LLM 响应可以通过降低 LLM 服务的负载来提高整体应用的可扩展性。语义缓存有助于避免系统瓶颈，确保应用可以处理更多请求。"
+    },
+    "cost": {
+      "title": "减少开发成本",
+      "desc": "语义缓存工具能够减少大语言模型应用的开发成本。开发过程中需要连接大语言模型的 API，因此成本可能会十分高昂。GPTCache 界面与大语言模型 API 相同，可存储模型生成数据。使用 GPTCache 无需再连接至大语言模型 API，从而降低成本。"
+    },
+    "network": {
+      "title": "降低网络延迟",
+      "desc": "语义缓存更靠近客户端，可以减少从 LLM 服务检索数据所需的时间。降低网络延迟能有效提升用户的整体体验。"
+    },
+    "availability": {
+      "title": "定制个性化缓存规则",
+      "desc": "根据特定要求定制语义缓存规则（如：输入类型、输出格式或响应长度等）有助于提升缓存效率。"
+    }
+  },
+  "mechanism": {
+    "title": "GPTCache 的工作原理",
+    "desc": "GPTCache 采用 embedding 算法将查询转化为向量数据，并使用向量存储进行向量相似性搜索。GPTCache 因此能够查询缓存并召回相似问题。GPTCache 的工作流程如下图所示。"
+  },
+  "keyResources": {
+    "title": "关键资源",
+    "resources": [
+      {
+        "tagLine": "博客",
+        "title": "介绍 OSS Chat",
+        "btnLabel": "阅读更多",
+        "desc": "介绍此应用程序如何演示新的 AI Stack ChatGPT + Vector 数据库 + prompt-as-code",
+        "link": "/blog/ChatGPT-VectorDB-Prompt-as-code"
+      },
+      {
+        "tagLine": "博客",
+        "title": "介绍 GPTCache",
+        "desc": "通过实现缓存来提高基于 GPT 的应用程序的效率和速度",
+        "btnLabel": "阅读博客",
+        "link": "/blog/Caching-LLM-Queries-for-performance-improvements"
+      },
+      {
+        "tagLine": "博客",
+        "title": "又一个缓存，但是针对 ChatGPT",
+        "desc": "我们如何在不到2周的时间内构建GPTCache并开源",
+        "btnLabel": "阅读博客",
+        "link": "/blog/Yet-another-cache-but-for-ChatGPT"
+      }
+    ]
+  }
+}

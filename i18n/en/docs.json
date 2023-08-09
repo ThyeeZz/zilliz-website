@@ -1,0 +1,11 @@
+{
+  "anchorTitle": "On this page",
+  "manuTitle": "Docs Menu",
+
+  "search": {
+    "placeholder": "Search",
+    "title": "Search results",
+    "result": "{{number}} results found for ",
+    "noData": "Sorry, no results found for "
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "buttons": {
+    "doc": "Documentation"
+  },
+  "attuHeader": {
+    "title": "Vector database admin tool",
+    "subTitle": "Interact with vector databases and manage your data with just a few clicks.",
+    "tagLine": "Attu",
+    "btn": "Free download"
+  },
+  "connectMilvus": {
+    "tagLine": "Connect to Milvus",
+    "title": "Visualize and interact with Milvus",
+    "subTitle": "Perform CRUD operations in Milvus within a few clicks"
+  },
+  "importData": {
+    "tagLine": "Import data",
+    "title": "Operate your data more easily than ever",
+    "subTitle": "Import and export JSON and CSV files to and from your collections easily"
+  },
+  "vectorSearch": {
+    "tagLine": "Vector similarity search",
+    "title": "See data directly from your web browser",
+    "subTitle": "Query and search your vector data in a visual way"
+  },
+  "systemView": {
+    "tagLine": "System view",
+    "title": "View Milvus internal stats clearly in system view",
+    "subTitle": "See your Milvus nodes in one picture"
+  },
+  "faq": {
+    "title": "Let’s get you started",
+    "install": "Install Attu with helm",
+    "manage": "Manage Milvus with Attu",
+    "search": "Vector search in GUI",
+    "learnMore": "Learn More"
+  }
+}

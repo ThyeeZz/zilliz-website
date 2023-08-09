@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "合作伙伴",
+    "desc": "与优秀合作伙伴并肩，助力向量搜索应用构建",
+    "btnLabel": "成为合作伙伴"
+  },
+  "all": "所有合作伙伴",
+  "cards": {
+    "aws": "亚马逊云服务 (AWS)",
+    "googleCloud": "谷歌云 (Google Cloud)",
+    "nvidia": "英伟达 (NVIDIA)",
+    "openAi": "OpenAI",
+    "huggingFace": "Hugging Face",
+    "cohere": "co:here",
+    "pyTorch": "PyTorch"
+  },
+  "detail": {
+    "tagLine": "合作伙伴"
+  }
+}

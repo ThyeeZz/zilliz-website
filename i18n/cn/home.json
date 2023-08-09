@@ -1,0 +1,111 @@
+{
+  "header": {
+    "title": "Zilliz Cloud 向量数据库服务全面发布",
+    "subTitle": "助力打造高质量 AI 服务与应用，源于 Milvus，高于 Milvus",
+    "subTitle2": "Zilliz构建基于云的向量数据库和搜索技术，提供相应的管理服务、工具和平台。",
+    "buttons": {
+      "tryBtn": "了解更多",
+      "applyBtn": "申请试用",
+      "freeTrial": "免费试用"
+    },
+    "clouds": {
+      "alibaba": {
+        "name": "阿里云",
+        "desc": "SaaS 与 PaaS 向量数据库服务"
+      },
+      "baidu": {
+        "name": "百度智能云",
+        "desc": "PaaS 向量数据库服务"
+      },
+      "jinshan": {
+        "name": "金山云",
+        "desc": "PaaS 向量数据库服务"
+      },
+      "tencent": {
+        "name": "腾讯云",
+        "desc": "PaaS 向量数据库服务"
+      }
+    },
+    "businessConsult": "商务咨询",
+    "ecologyPartner": "生态合作伙伴"
+  },
+  "milvusAndZilliz": {
+    "title": "使用 Zilliz Cloud 释放 Milvus 向量数据库潜能",
+    "milvus": {
+      "title": "为什么选择 Milvus？",
+      "desc": "Milvus 是全球最受欢迎、迭代最快、架构最成熟的开源向量数据库，拥有最大的中国/海外用户及开发者社区，下载量超 300 万次，深受全球 1000 多家企业用户的信赖。",
+      "buttons": {
+        "compare": "Milvus vs. Zilliz Cloud",
+        "start": "快速开始"
+      }
+    },
+    "zilliz": {
+      "title": "为什么选择 Zilliz Cloud？",
+      "desc": "Zilliz Cloud 由 Milvus 原厂打造，是全托管的 SaaS 及 PaaS 向量数据库服务，提供深度优化、开箱即用的 Milvus 体验。使用 Zilliz Cloud 可以轻松构建十亿级向量数据库，部署和扩展向量搜索服务。由全球最专业的向量数据库团队提供运维、优化、及综合支持。",
+      "buttons": {
+        "learn": "了解详情",
+        "apply": "免费试用"
+      }
+    }
+  },
+  "brandWall": {
+    "title": "Zilliz Cloud —— 深受企业级用户信赖"
+  },
+  "partners": {
+    "title": "大模型与公有云全球合作伙伴",
+    "cloudPartner": "基础设施与云合作伙伴",
+    "modelPartner": "大模型合作伙伴"
+  },
+
+  "highPerformance": {
+    "title": "高性能，高可用性，高扩展性",
+    "milvusExpertise": {
+      "title": "Milvus 原厂打造",
+      "desc": "Zilliz Cloud 由 Milvus 团队原厂打造。我们深度支持了来自不同行业的超一千家企业用户，在全球范围内提供最先进的向量数据库技术与产品，以及最完善的服务与解决方案。"
+    },
+    "highAvailability": {
+      "title": "高可用性",
+      "desc": "Zilliz Cloud 致力于为客户提供最优质的产品体验。我们深刻理解您对服务稳定性要求。在 Zilliz Cloud 全系列产品中，我们提供 99.9% 的可用性保证。"
+    },
+    "easyOfUse": {
+      "title": "简单易用",
+      "desc": "新手友好，没有任何经验也能在几分钟内就轻松部署大规模的向量相似性 搜索服务。"
+    },
+    "blazingFast": {
+      "title": "超强性能",
+      "desc": "Zilliz Cloud 为您提供企业版向量数据库引擎，软硬件双重优化，将性能打磨至极致。向量搜索速度是同类产品的 10 倍以上，大幅降低基础设施成本。"
+    },
+    "highScalable": {
+      "title": "高扩展性",
+      "desc": "Zilliz Cloud 采用云原生分布式向量数据库架构，可稳定支持百亿规模向量数据。支持水平扩展和垂直扩展，支持多副本，支持性能的线性扩展。"
+    },
+    "security": {
+      "title": "安全合规",
+      "desc": "数据安全是我们的首要任务。Zilliz Cloud 已获得 SOC 2 认证。我们致力于保障 Zilliz Cloud 平台数据的安全。"
+    }
+  },
+  "infrastructure": {
+    "title": "安全合规，遍布全球的向量数据库基础设施",
+    "subTitle": "覆盖全球<0>7</0>朵公有云"
+  },
+  "unstructuredData": {
+    "title": "面向向量嵌入的云数据库",
+    "subtitle": "人们喜爱LF AI Milvus®。我们的云原生、完整、全面托管的服务超越了Milvus。",
+    "list1": {
+      "title": "为AI时代而生",
+      "desc": "计算分离可以根据需求进行弹性扩展，充分利用云的弹性特性。"
+    },
+    "list2": {
+      "title": "新型数据基础架构",
+      "desc": "数据可靠性和服务的可持续性是数据库的基本要求。"
+    },
+    "list3": {
+      "title": "云原生",
+      "desc": "提供工具、库和框架，加快开发速度，降低开发难度。"
+    }
+  },
+
+  "subscribe": {
+    "title": "订阅 Zilliz 最新消息"
+  }
+}

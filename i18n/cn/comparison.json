@@ -1,0 +1,28 @@
+{
+  "header": {
+    "title": "开源向量数据库对比",
+    "desc": "对比不同向量数据库之间的架构、可扩展性、性能、用例和使用成本。",
+    "btnLabel": "免费试用 Zilliz Cloud"
+  },
+  "landingpage": {
+    "compareTitle": "<0>{{database}}</0> 与其他数据库进行比较"
+  },
+  "compareGrid": {
+    "title": "<0>{{itemA}}</0> 与 <0>{{itemB}}</0>  <1>{{field}}</1>对比",
+    "whstIsRight": "<0>{{itemA}}</0> 对比 <0>{{itemB}}</0>：什么对我来说更合适？"
+  },
+  "childrenHeader": {
+    "vsTag": {
+      "title": "比较",
+      "slash": "/",
+      "items": "{{itemA}} 对比 {{itemB}}"
+    },
+    "title": "{{itemA}} 对比 {{itemB}}",
+    "desc": "通过以下一系列能力比较 {{itemA}} 对比 {{itemB}}。我们希望您选择适合您的最佳开源数据库，即使它不是我们。"
+  },
+  "footer": {
+    "title": "简单易用、性能超强的向量数据库",
+    "desc": "几分钟内便可轻松部署大型向量检索服务。",
+    "button": "免费试用 Zilliz Cloud"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "startFree": "Start now for free",
+  "subscribe": {
+    "title": "Sign Up for the Zilliz newsletter"
+  },
+  "header": {
+    "title": "Simply The Fastest Vector Database for AI. Period.",
+    "subTitle": "Powered by Milvus, the world's most popular vector database.",
+    "subTitle2": "2 collections + 1 million vectors + multiple collaborators for free.",
+    "subTitle3": "No credit card required.",
+    "btn": "Get Started Free",
+    "blogs": "Blogs",
+    "news": "News"
+  },
+  "swiper": {
+    "title": "Why Zilliz Cloud is the Top Choice for Enterprise-Level Vector Search."
+  },
+  "reliabilityAndScale": {
+    "title": "High performance and reliability at any scale.",
+    "easeOfUse": {
+      "title": "Easy to Use",
+      "content": "No experience required. You can easily establish a large-scale vector similarity search service in minutes. Stay out of Ops and focus on your business logic."
+    },
+    "milvusExpertise": {
+      "title": "Milvus Expertise",
+      "content": "Zilliz Cloud is built by the creators of Milvus. We have deep experience across diverse Milvus use cases, providing state-of-the-art vector database services and solutions."
+    },
+    "blazingFast": {
+      "title": "Blazing Fast",
+      "content": "Our ultra-fast and hardware efficient Zilliz Cloud enables a 10x faster vector retrieval, unparalleled by any other vector database management system."
+    },
+    "scalability": {
+      "title": "Highly Scalable",
+      "content": "The distributed and high-throughput nature makes Zilliz Cloud a natural fit for serving large scale vector data. You can scale the cluster up to 500 CU, serving tens of billions of items. "
+    },
+    "availability": {
+      "title": "High Availability",
+      "content": "With an aim to offer unparalleled customer experience and industry-leading SLAs, Zilliz offers 99.9% monthly uptime for all the products on our cloud."
+    },
+    "security": {
+      "title": "Security & Governance",
+      "content": "Data security is always our first priority. Zilliz Cloud complies with the SOC 2 standard and will support Role-Based Access Control (RBAC) soon. "
+    }
+  },
+  "takeover": {
+    "title": "Democratize the Vector Database",
+    "desc": "Elite Performance for Every Developer ",
+    "btn": "Read About Our New Release"
+  },
+  "milvusAndCloud": {
+    "title": "Unleash the power of Milvus advanced vector search with Zilliz Cloud.",
+    "milvus": {
+      "title": "Why Milvus",
+      "desc": "Milvus is the most popular and fastest-growing open-source vector database, with over {{stars}} stars on GitHub and 3.8 million+ downloads. Milvus supports billion-scale vector search with ease, and is trusted by over 1,000 enterprise users."
+    },
+    "cloud": {
+      "title": "Why Zilliz Cloud",
+      "desc": "Zilliz Cloud provides a fully-managed Milvus service, made by the creators of Milvus. It simplifies the deploying and scaling of vector search applications by eliminating the need to construct and maintain complex infrastructure."
+    }
+  },
+  "codeExample": {
+    "title": "Build with confidence and supercharge your <0></0>AI applications. ",
+    "desc": "Sign up for a free Zilliz Cloud account and grab one of our official SDKs to start. Then, create your first collection and conduct a vector similarity search to power your AI application in minutes, and when you are ready to launch your app, upgrade to a pay-as-you-go plan.",
+    "tip": "*This code is for preview purposes only",
+    "viewFullCode": "View Full Code",
+
+    "languages": {
+      "python": "Python",
+      "java": "Java",
+      "go": "Go",
+      "node": "Node.js"
+    }
+  },
+  "techStack": {
+    "title": "Works seamlessly with your tech stack."
+  },
+  "buildApplication": {
+    "title": "Start building better vector search applications today",
+    "desc": "Deploy your vector database on AWS or GCP and start using it in just a few minutes."
+  },
+  "101Section": {
+    "title": "Want to learn more about Vector Databases?",
+    "desc": "The ever-increasing amount of unstructured data requires a paradigm shift and a new category of database management system - the vector database. But what is a vector database exactly? Find out in this comprehensive guide."
+  },
+  "whereCanHelp": {
+    "title": "Where can vector databases help?",
+    "viewAllCases": "View all use cases",
+    "imageSearch": {
+      "title": "LLM Augmentation",
+      "desc": "Expand LLMs' knowledge by incorporating external data sources into LLMs and your AI applications."
+    },
+    "videoSearch": {
+      "title": "Recommender System",
+      "desc": "Recommend information or products to users based on their past behaviors and preferences."
+    },
+    "audioSearch": {
+      "title": "Text/Semantic Search",
+      "desc": "Search for semantically similar texts across vast amounts of natural language documents."
+    },
+    "molecularSearch": {
+      "title": "Image Similarity Search",
+      "desc": "Search for visually similar images from a vast collection of image libraries."
+    },
+    "textSearch": {
+      "title": "Audio Similarity Search",
+      "desc": "Find similar audio results from massive amounts of audio data such as music, sound effects, and speeches."
+    },
+    "dnaClassification": {
+      "title": "Video Similarity Search",
+      "desc": "Search for similar videos from extensive collections of video libraries."
+    },
+    "qaSystem": {
+      "title": "Question Answering System",
+      "desc": "Interactive QA chatbot that automatically answers user questions."
+    },
+    "recommenderSystem": {
+      "title": "Molecular Similarity Search",
+      "desc": "Search for similar substructures, superstructures, and other structures for a specified molecule."
+    },
+    "anomalyDetection": {
+      "title": "Multimodal Similarity Search",
+      "desc": "Query across different modalities such as texts, videos, audio, and images. "
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "VectorDBBench - A Vector Database Benchmark Tool",
+  "desc1": "VectorDBBench provides unbiased vector database benchmark results for mainstream vector databases and cloud services, and it's your go-to tool for the ultimate performance and cost-effectiveness of <0>vector database comparison</0>. Designed with ease-of-use in mind, VectorDBBench is devised to help users, even non-professionals, reproduce results or test new systems, making the hunt for the optimal choice amongst a plethora of <1>vector database cloud services</1> and <2>open-source vector databases</2> a breeze.",
+  "desc2": "Prepare to delve into the world of VectorDBBench, and let it guide you in uncovering your perfect <0>vector database</0> match.",
+  "theme": {
+    "dark": "Dark Mode",
+    "light": "Light Mode"
+  },
+  "selectAll": "Select All",
+  "nothingSelected": "Nothing selected",
+  "system": "System",
+  "hostType": "Host/Instance Type",
+  "metrics": "Metrics",
+  "systemAndMachine": "System & Machine",
+  "orderTips": {
+    "qps": "QPS Score",
+    "qp$": "QP$ Score",
+    "latency": "Latency Score"
+  },
+  "detail": "Detailed Comparison_<0>{{type}}</0>",
+  "qpDescription": "This is a 1-100 score based on each system's performance in <0>different cases</0> according to a <1>specific rule</1>. A higher score denotes better performance.",
+  "latencyDescription": "This is a >1 score based on each system's performance in <0>different cases</0> according to a <1>specific rule</1>. A lower score denotes better performance.",
+  "comparison": {
+    "qps": "These are the specific QPS performance data with recall for each system across various cases. ",
+    "qp$": "These are the specific QP$ data with recall for each system across various cases. ",
+    "latency": "These are the specific Latency(ms) performance data with recall for each system across various cases. "
+  }
+}

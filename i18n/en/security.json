@@ -1,0 +1,72 @@
+{
+  "header": {
+    "title": "We’re Serious About <0>Security</0>",
+    "desc": "We understand that your unstructured data is important to your business. Learn more about how we ensure your data is secure, protected, and available."
+  },
+  "endToEnd": {
+    "title": "End-to-end data security",
+    "desc": "We value your trust and strive to deliver a reliable vector database platform. Please read about our <0>Data Protection and High Availability</0> philosophy for your Embeddings in your Zilliz cloud instance.",
+    "infrastructure": {
+      "title": "Infrastructure",
+      "desc": "Our serverless, single-tenant architecture guarantees world-class reliability and data privacy."
+    },
+    "data": {
+      "title": "Data and Application Security",
+      "desc": "Security is paramount in everything we do, from our product, to the way we run our business, to how our employees prioritize security."
+    },
+    "compliance": {
+      "title": "Compliance",
+      "desc": "We are SOC2 (Type2) Compliant.\nZilliz follows strict policies and procedures that meet all the Trust Services Criteria: security, availability, processing integrity, confidentiality, and privacy. Check out the <0>trust report</0> for more information."
+    }
+  },
+  "infrastructure": {
+    "title": "Infrastructure",
+    "desc": "Zilliz’s entire foundation is optimized to guarantee high performance, resilience, and efficient application infrastructure while and reduce security risk.",
+    "tenancy": {
+      "title": "Single-Tenant",
+      "desc": "Zilliz Cloud is a cloud computing platform that provides its customers with physical isolation via resource groups and multi-tenancy features. In addition, Zilliz provides better uptime and reliability by storing customer data in separate instances."
+    },
+    "IR": {
+      "title": "Security Incident Response",
+      "desc": "Once a security vulnerability is detected, appropriate staff at Zilliz Cloud are assigned to fix it immediately. In addition, version upgrades and security patching are completed automatically for our customer databases. Finally, Zillis sends notifications after the event."
+    },
+    "availability": {
+      "title": "Availability",
+      "desc": "Zilliz commits to <0>99.9%</0> service uptime through our <1>SLA</1>. Read more about our <2>system availability</2>."
+    }
+  },
+  "application": {
+    "title": "Data and Application Security",
+    "desc": "Zilliz's security-first culture puts security and trust at the forefront of every part of our business.",
+    "dataSecurity": {
+      "title": "Data Security",
+      "desc": "Data at rest in Zilliz Cloud is encrypted using the cloud provider's infrastructure-level disk encryption. In addition, dedicated customers can bring their managed key from their cloud provider's key management service to further encrypt the AWS & GCP cluster data using file-based encryption."
+    },
+    "transit": {
+      "title": "Data in transit",
+      "desc": "All traffic between the Zilliz Cloud vector database and client-server communications is encrypted using TLS. In addition, the database uses TLS 1.3 digital certificates for inter-node and client-server authentication, which require a Certificate Authority (CA), keys and certificates for nodes, and passwords or tokens for clients."
+    },
+    "access": {
+      "title": "Data access & recovery",
+      "desc": "Zilliz Cloud uses a role-based access control (RBAC) permission system to ensure that only authorized personnel can access your data. We offer data backups and a data recovery bin to assist you in the event of accidental deletion or data corruption."
+    }
+  },
+  "customer": {
+    "title": "Customer Responsibilities",
+    "desc": "Zilliz Cloud service with the assumption that specific controls will be the responsibility of its customers.",
+    "listTitle": "The following is a list of recommended controls to reduce risk and enhance security when using the service. Customers are responsible for:",
+    "listItems": [
+      "Adding and managing user accounts, credentials, and access rights to the cloud console and their databases.",
+      "Responsible for the strength of the passwords they choose for signing into the Zilliz Cloud console or their databases.",
+      "Identifying approved contact points to coordinate with Zilliz Cloud. The Support team may reach out to the designated contact to validate requests.",
+      "Validating the accuracy and completeness of data contained in their environment.",
+      "Data confidentiality controls at their organizations, such as segregation of duties and (non-)disclosure of information at the customer organization.",
+      "Alerting Zilliz Cloud of security incidents when they become aware of them.",
+      "Implementing Zilliz Cloud-provided network security and data protection capabilities in Zilliz dedicated when customer data includes PII, PHI, or other sensitive data."
+    ]
+  },
+  "report": {
+    "title": "File a security report",
+    "desc": "If you believe you have discovered a security or privacy vulnerability in Zilliz Cloud, please contact <0>security@zilliz.com</0>"
+  }
+}

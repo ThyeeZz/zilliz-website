@@ -1,0 +1,33 @@
+{
+  "head": {
+    "title": "<0>Introducing Zilliz Cloud</0> <1>Unleash the True Potential of Your AI Applications</1>",
+    "desc": "Are you tired of limitations? Say goodbye to slow and inefficient Vector databases. Instead, upgrade to Zilliz Cloud, the superior alternative to Pinecone.",
+    "btnLabel": "Get Started Free",
+    "tip": "<0>2 collections + 1 million vectors + multiple collaborators for free.</0> <0>No credit card required.</0>"
+  },
+  "content": {
+    "title": "Why Developers choose Zilliz Cloud?",
+    "performance": {
+      "title": "Performance",
+      "desc": "Experience the true power of your data with a high-performance vector database, enabling lightning-fast data storage and retrieval and delivering impactful user experiences through seamless real-time applications and insightful decision-making."
+    },
+    "scalability": {
+      "title": "Horizontal Scalability",
+      "desc": "Achieve limitless growth and easily handle increasing data demands by leveraging a vector database's horizontal scalability, ensuring seamless expansion, high availability, and uninterrupted performance for your applications."
+    },
+    "sourceRoot": {
+      "title": "Open Source Roots",
+      "desc": "Zilliz Cloud, created by the same developers as Milvus, offers a fully-managed Milvus service that simplifies the deployment and scaling of vector search applications. With Zilliz Cloud, creating or maintaining complex data infrastructure is unnecessary, making it easier than ever to manage and scale your applications."
+    }
+  },
+  "buildBest": {
+    "title": "Build with the Best",
+    "desc": [
+      "Zilliz Cloud empowers you with lightning-fast similarity search and advanced vector storage capabilities, revolutionizing how you handle your AI data. Our cutting-edge technology ensures maximum performance, scalability, and accuracy, giving your applications the competitive edge they deserve.",
+      "Don't settle for less when you can have the best. Experience the power of Zilliz Cloud and elevate your AI applications to new heights."
+    ]
+  },
+  "signUpNow": {
+    "title": "Sign Up Now, Get your Free Zilliz Account"
+  }
+}

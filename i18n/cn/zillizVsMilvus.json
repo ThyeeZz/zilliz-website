@@ -1,0 +1,13 @@
+{
+  "header": {
+    "title": "Zilliz Cloud 与 Milvus 对比",
+    "desc": "Zilliz 独有功能让您体验极致的云原生向量数据库。",
+    "btnLabel": "免费试用"
+  },
+  "desc": "Zilliz Cloud 是一款云原生向量数据库，可帮助您轻松管理和扩展 Milvus 集群、存储向量、执行向量相似性检索。以下表格从多个方面比较了 Zilliz Cloud 与 Milvus 异同。",
+  "titles": {
+    "easeOfUse": "基于 Milvus 构建，Zilliz Cloud 易用性更高",
+    "cloudNative": "云原生，可扩展性",
+    "security": "专家支持和安全性"
+  }
+}

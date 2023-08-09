@@ -119,3 +119,5 @@ please refer `packages/tsconfig`
 - '@p': './packages'
 - '@s': './styles'
   -'@': zilliz.com.\*n/src
+
+[turborepo](https://turbo.build/repo/docs/getting-started/create-new)

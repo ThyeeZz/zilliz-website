@@ -1,0 +1,26 @@
+{
+  "title": "Zilliz 新闻中心",
+  "subTitle": "整合公司官方发布、媒体报道、公司新闻等多种资源，助您了解 Zilliz 最新近况",
+  "noData": "没有更多新闻",
+  "buttons": {
+    "readMore": "阅读更多",
+    "learnMore": "更多新闻",
+    "assets": "即将推出",
+    "touch": "联系我们",
+    "comming": "即将推出"
+  },
+  "feature": {
+    "title": "外部报道"
+  },
+  "press": {
+    "title": "公司新闻"
+  },
+  "contact": {
+    "title": "媒体联系",
+    "desc": ""
+  },
+  "media": {
+    "title": "媒体资源",
+    "desc": "下载 Zilliz 官方品牌标识及媒体资源"
+  }
+}

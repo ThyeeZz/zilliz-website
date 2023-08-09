@@ -1,0 +1,48 @@
+{
+  "title": "Try Zilliz Cloud for 30 days free",
+  "desc": "Managed service for Milvus. Fill out the form to access the private preview.",
+  "labels": {
+    "email": "Enter your work email",
+    "company": "What's your company?",
+    "jobTitle": "What's your job title?",
+    "makeUse": "What's your application scenario?",
+    "scale": "What is your scale of data?",
+    "hear": "How did you hear about us?",
+    "country": "Where is your headquarters?",
+    "qps": "What's your expected QPS?",
+    "latency": "What's your expected latency? Less than",
+    "time": "How long have you been using vector database?",
+    "firstName": "First name",
+    "lastName": "Last name"
+  },
+  "placeholders": {
+    "email": "e.g. Alex.Huang@zilliz.com",
+    "company": "Enter company name",
+    "jobTitle": "Enter job title",
+    "makeUse": "Select usage scenario",
+    "scale": "Select scale of data",
+    "hear": "Select the channel",
+    "usage": "Please enter usage scenario",
+    "country": "Select the country",
+    "qps": "Select expected QPS",
+    "latency": "Select expected latency",
+    "time": "Select experience",
+    "firstName": "Enter your first name",
+    "lastName": "Enter your last name"
+  },
+  "inputErrors": {
+    "require": "Please enter your {{key}}.",
+    "format": "Format error.",
+    "limit": "Maximum length should be less than {{num}}"
+  },
+  "otherScenarioPrompt": "Please describe your application scenario",
+  "selectSecenarioPrompt": "Please select application scenario",
+  "selectorErrorMsg": "Please choose {{key}}.",
+  "buttons": {
+    "submit": "Submit",
+    "wait": "Loading"
+  },
+  "success": "Submitted successfully",
+  "thanks": "Thank you for your application. You’ll receive an invitation though email once the application is approved.",
+  "contact": "If you have any questions,  please feel free to reach us "
+}

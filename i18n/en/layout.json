@@ -1,0 +1,135 @@
+{
+  "header": {
+    "buttons": {
+      "contact": "Contact us",
+      "login": "Log in",
+      "getStarted": "Get Started Free",
+      "learnMore": "Learn More",
+      "saveSpot": "Save your spot now",
+      "download": "Download Whitepaper",
+      "readNow": "Read Now"
+    },
+    "product": {
+      "title": "Products",
+      "zilliz": {
+        "title": "Zilliz Cloud",
+        "desc": "Fully-managed vector database service designed for speed, scale and high performance."
+      },
+      "milvus": {
+        "title": "Milvus",
+        "desc": "Open-source vector database built for billion-scale vector similarity search."
+      },
+      "subMenu": {
+        "cloudAndMilvus": "Cloud vs. Milvus",
+        "benchmark": "Benchmark",
+        "openSource": "Open Source"
+      },
+      "recommend": {
+        "title": "How to Select the Most Appropriate CU Type and Size for Your Business?"
+      }
+    },
+    "pricing": {
+      "title": "Pricing",
+      "subMenu": {
+        "plan": {
+          "title": "Pricing Plan",
+          "intro": "Flexible pricing options for every team on any budget"
+        },
+        "calculator": {
+          "title": "Calculator",
+          "intro": "Estimate your cost"
+        },
+        "marketplace": {
+          "title": "Marketplace",
+          "intro": "Subscribe on AWS Marketplace"
+        }
+      },
+      "recommend": {
+        "title": "Free Tier"
+      }
+    },
+    "developer": {
+      "title": "Developers",
+      "document": {
+        "title": "Documentation",
+        "desc": "The Zilliz Cloud Developer Hub where you can find all the information to work with Zilliz Cloud"
+      },
+      "subMenu": {
+        "learn": "Learn",
+        "community": "Community"
+      },
+      "recommend": {
+        "title": "Community Office Hours"
+      }
+    },
+    "resource": {
+      "title": "Resources",
+      "subMenu": {
+        "blog": "Blog",
+        "whitepaper": "Whitepapers",
+        "webinar": "Webinars",
+        "training": "Trainings",
+        "event": "Events"
+      },
+      "recommend": {
+        "title": "Why Vector Databases Matter for Unstructured Data"
+      }
+    },
+    "solution": {
+      "title": "Solutions",
+      "product": {
+        "title": "By Use Case",
+        "useCase": "LLM Augmentation",
+        "viewAll": "View all use cases"
+      },
+      "recommend": {
+        "title": "How Short-video Platform Likee Removes Duplicate Videos with Milvus"
+      }
+    }
+  },
+  "footer": {
+    "product": {
+      "name": "Product",
+      "cloud": "Zilliz Cloud",
+      "milvus": "What is Milvus",
+      "gptcache": "What is GPTCache",
+      "towhee": "Towhee",
+      "attu": "Attu",
+      "cli": "Milvus CLI",
+      "feder": "Feder"
+    },
+    "resources": {
+      "name": "Resources",
+      "tutorials": "Tutorials",
+      "doc": "Docs",
+      "whitepaper": "Resources",
+      "learn": "Learn",
+      "comparison": "Comparison",
+      "blog": "Blog",
+      "glossary": "Glossary",
+      "benchmark": "Benchmark"
+    },
+    "company": {
+      "name": "Company",
+      "event": "Events",
+      "news": "News",
+      "about": "About",
+      "contact": "Contact",
+      "contactSales": "Contact Sales",
+      "partners": "Partners",
+      "join": "Careers",
+      "joinTag": "WE’RE HIRING"
+    },
+    "follow": "Follow us"
+  },
+  "startTrialBanner": {
+    "getStarted": "Get started with Zilliz Cloud",
+    "freeTrialBtn": "Start Free Trial"
+  },
+  "cookieConsent": {
+    "title": "Can we use cookies?",
+    "content": "This website will use cookies to enhance the user experience.",
+    "declineBtn": "Decline",
+    "acceptBtn": "Accept"
+  }
+}
