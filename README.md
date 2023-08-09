@@ -75,3 +75,47 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+## How to use
+
+git clone，cd to zilliz-website and run `pnpm install`
+
+## How to install dependencies
+
+- Global dependencies:
+  `pnpm add some-package -w` or `pnpm add some-package -wD`
+
+- 单独安装:
+  `pnpm add -F some-package -D` or cd to specific directory and run 'pnpm add some-package'
+
+## Dev and Build
+
+`pnpm run zilliz.com.en:dev` or `pnpm -F zilliz.com.en run dev`
+or you can cd to specific directory and run `pnpm dev`
+
+## How to turn locale files into dependencies
+
+- cd to current directory and run `pnpm init`,
+
+- modify package.json file:
+
+```
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+```
+
+than export content from index.tsx;
+
+- install local dependency
+  cd to specific directory and modify package.json file:
+  `"locale-dependency": "workspace:*"`, or you can run `pnpm add ./path-to-dependency`
+
+## Public config files
+
+please refer `packages/tsconfig`
+
+## About related paths
+
+- '@p': './packages'
+- '@s': './styles'
+  -'@': zilliz.com.\*n/src
