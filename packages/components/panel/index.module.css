@@ -1,0 +1,73 @@
+@import url('../../common-styles/globals.css');
+
+.labelWrapper {
+  display: flex;
+  justify-content: space-between;
+  p,
+  a {
+    @include zilliz-body3-regular;
+    width: 100%;
+  }
+  .icon {
+    transform: rotate(180deg);
+    transition: all 0.2s linear;
+    &.top {
+      transform: rotate(0deg);
+    }
+    & path {
+      fill: $black-tab;
+    }
+  }
+}
+
+.itemsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-height: 0;
+  transition: all 0.2s linear;
+  overflow: hidden;
+  &.show {
+    margin-top: 25px;
+    max-height: 1000px;
+  }
+}
+
+.desc {
+  @include zilliz-body5-regular;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: $black-black2;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .linkBtn {
+    display: block;
+    width: 100%;
+  }
+
+  a {
+    position: relative;
+    @include zilliz-body4-bold;
+  }
+
+  &:hover {
+    color: $digital-blue;
+    .arrow {
+      visibility: visible;
+      right: -22px;
+      path {
+        fill: $digital-blue;
+      }
+    }
+  }
+}
+
+.arrow {
+  top: 4px;
+  @include arrow-animation;
+}

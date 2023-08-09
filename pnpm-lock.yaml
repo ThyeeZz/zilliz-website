@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      clsx:
+        specifier: ^2.0.0
+        version: 2.0.0
       common-styles:
         specifier: workspace:*
         version: link:packages/common-styles
+      components:
+        specifier: workspace:*
+        version: link:packages/components
       i18next:
         specifier: ^23.4.3
         version: 23.4.3
@@ -113,6 +119,8 @@ importers:
   apps/zilliz.com.en: {}
 
   packages/common-styles: {}
+
+  packages/components: {}
 
   packages/eslint-config-custom:
     dependencies:
@@ -1239,6 +1247,11 @@ packages:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
     dev: true
+
+  /clsx@2.0.0:
+    resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
+    engines: {node: '>=6'}
+    dev: false
 
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}

@@ -4,6 +4,7 @@ import React from 'react';
 import { Button } from 'ui';
 import classes from 'common-styles';
 import { useTranslation } from 'react-i18next';
+import CustomDrop from 'ui/customDrop';
 
 export default function Blog() {
   const { blogClasses } = classes;
@@ -20,6 +21,7 @@ export default function Blog() {
           著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
         </p>
         <button>{t('button.freeTrial')}</button>
+        <CustomDrop />
       </div>
     </div>
   );

@@ -33,7 +33,9 @@
   "packageManager": "pnpm@8.6.10",
   "name": "zilliz-website",
   "dependencies": {
+    "clsx": "^2.0.0",
     "common-styles": "workspace:*",
+    "components": "workspace:*",
     "i18next": "^23.4.3",
     "next": "^13.4.1",
     "react": "^18.2.0",
